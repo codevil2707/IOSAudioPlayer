@@ -56,15 +56,47 @@
 		CDFA990127B79F9500495F59 /* IOSAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				CDFA991927B7BA6300495F59 /* View Controller */,
+				CDFA991827B7BA3B00495F59 /* Utilities */,
+				CDFA991627B7BA0700495F59 /* Resource */,
+				CDFA991727B7BA1A00495F59 /* Application */,
+			);
+			path = IOSAudioPlayer;
+			sourceTree = "<group>";
+		};
+		CDFA991627B7BA0700495F59 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA990B27B79F9B00495F59 /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		CDFA991727B7BA1A00495F59 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				CDFA990227B79F9500495F59 /* AppDelegate.swift */,
 				CDFA990427B79F9500495F59 /* SceneDelegate.swift */,
-				CDFA990627B79F9500495F59 /* ViewController.swift */,
 				CDFA990827B79F9500495F59 /* Main.storyboard */,
-				CDFA990B27B79F9B00495F59 /* Assets.xcassets */,
 				CDFA990D27B79F9B00495F59 /* LaunchScreen.storyboard */,
 				CDFA991027B79F9B00495F59 /* Info.plist */,
 			);
-			path = IOSAudioPlayer;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CDFA991827B7BA3B00495F59 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CDFA991927B7BA6300495F59 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA990627B79F9500495F59 /* ViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
