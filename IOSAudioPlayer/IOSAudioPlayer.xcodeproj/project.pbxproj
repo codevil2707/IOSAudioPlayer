@@ -13,33 +13,35 @@
 		CDFA990A27B79F9500495F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFA990827B79F9500495F59 /* Main.storyboard */; };
 		CDFA990C27B79F9B00495F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFA990B27B79F9B00495F59 /* Assets.xcassets */; };
 		CDFA990F27B79F9B00495F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFA990D27B79F9B00495F59 /* LaunchScreen.storyboard */; };
-		CDFA991C27B7BD5700495F59 /* Aashiqui Aa Gayi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA991B27B7BD5700495F59 /* Aashiqui Aa Gayi.mp3 */; };
-		CDFA993927B7BDA500495F59 /* Baliye Re - Jersey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA991D27B7BDA100495F59 /* Baliye Re - Jersey.mp3 */; };
-		CDFA993A27B7BDA500495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA991E27B7BDA200495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 */; };
-		CDFA993B27B7BDA500495F59 /* One Touch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA991F27B7BDA200495F59 /* One Touch.mp3 */; };
-		CDFA993C27B7BDA500495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992027B7BDA200495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 */; };
-		CDFA993D27B7BDA500495F59 /* Din Raat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992127B7BDA200495F59 /* Din Raat.mp3 */; };
-		CDFA993E27B7BDA500495F59 /* Yaariyan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992227B7BDA200495F59 /* Yaariyan.mp3 */; };
-		CDFA993F27B7BDA500495F59 /* Judai - Jannat 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992327B7BDA200495F59 /* Judai - Jannat 320Kbps.mp3 */; };
-		CDFA994027B7BDA500495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992427B7BDA200495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 */; };
-		CDFA994127B7BDA500495F59 /* Kithe Chaliye Tu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992527B7BDA300495F59 /* Kithe Chaliye Tu.mp3 */; };
-		CDFA994227B7BDA500495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992627B7BDA300495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 */; };
-		CDFA994327B7BDA500495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992727B7BDA300495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 */; };
-		CDFA994427B7BDA500495F59 /* Filhaal-2-Mohabbat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992827B7BDA300495F59 /* Filhaal-2-Mohabbat.mp3 */; };
-		CDFA994527B7BDA500495F59 /* Soch Liya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992927B7BDA300495F59 /* Soch Liya.mp3 */; };
-		CDFA994627B7BDA500495F59 /* Dil Galti Kar Baitha Hai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992A27B7BDA300495F59 /* Dil Galti Kar Baitha Hai.mp3 */; };
-		CDFA994727B7BDA500495F59 /* Brown Munde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992B27B7BDA300495F59 /* Brown Munde.mp3 */; };
-		CDFA994827B7BDA500495F59 /* Jind Meriye - Jersey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992C27B7BDA300495F59 /* Jind Meriye - Jersey.mp3 */; };
-		CDFA994927B7BDA500495F59 /* Rabb Jane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992D27B7BDA400495F59 /* Rabb Jane.mp3 */; };
-		CDFA994A27B7BDA500495F59 /* Tujhi Mein - Crook 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992E27B7BDA400495F59 /* Tujhi Mein - Crook 320Kbps.mp3 */; };
-		CDFA994B27B7BDA500495F59 /* Music.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDFA992F27B7BDA400495F59 /* Music.wav */; };
-		CDFA994C27B7BDA500495F59 /* Bachpan-Ka-Pyar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA993027B7BDA400495F59 /* Bachpan-Ka-Pyar.mp3 */; };
-		CDFA994D27B7BDA500495F59 /* Main Agar Saamne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA993127B7BDA400495F59 /* Main Agar Saamne.mp3 */; };
-		CDFA994E27B7BDA500495F59 /* Jindey Meriye - Jassie Gill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA993227B7BDA400495F59 /* Jindey Meriye - Jassie Gill.mp3 */; };
-		CDFA995027B7BDA500495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA993427B7BDA500495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 */; };
-		CDFA995127B7BDA500495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA993527B7BDA500495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 */; };
-		CDFA995227B7BDA500495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA993627B7BDA500495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 */; };
-		CDFA995327B7BDA500495F59 /* Chaldi Kudi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA993727B7BDA500495F59 /* Chaldi Kudi.mp3 */; };
+		CDFA997327B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995627B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 */; };
+		CDFA997427B7C5DE00495F59 /* Bachpan-Ka-Pyar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995727B7C5DE00495F59 /* Bachpan-Ka-Pyar.mp3 */; };
+		CDFA997527B7C5DE00495F59 /* Music.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995827B7C5DE00495F59 /* Music.wav */; };
+		CDFA997627B7C5DE00495F59 /* Tujhi Mein - Crook 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995927B7C5DE00495F59 /* Tujhi Mein - Crook 320Kbps.mp3 */; };
+		CDFA997727B7C5DE00495F59 /* Judai - Jannat 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995A27B7C5DE00495F59 /* Judai - Jannat 320Kbps.mp3 */; };
+		CDFA997827B7C5DE00495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995B27B7C5DE00495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 */; };
+		CDFA997927B7C5DF00495F59 /* Hawayein.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995C27B7C5DE00495F59 /* Hawayein.mp3 */; };
+		CDFA997A27B7C5DF00495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995D27B7C5DE00495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 */; };
+		CDFA997B27B7C5DF00495F59 /* Main Agar Saamne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995E27B7C5DE00495F59 /* Main Agar Saamne.mp3 */; };
+		CDFA997C27B7C5DF00495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995F27B7C5DE00495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 */; };
+		CDFA997D27B7C5DF00495F59 /* Barns Courtney-Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996027B7C5DE00495F59 /* Barns Courtney-Fire.mp3 */; };
+		CDFA997E27B7C5DF00495F59 /* Jindey Meriye - Jassie Gill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996127B7C5DE00495F59 /* Jindey Meriye - Jassie Gill.mp3 */; };
+		CDFA997F27B7C5DF00495F59 /* Jind Meriye - Jersey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996227B7C5DE00495F59 /* Jind Meriye - Jersey.mp3 */; };
+		CDFA998027B7C5DF00495F59 /* Din Raat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996327B7C5DE00495F59 /* Din Raat.mp3 */; };
+		CDFA998127B7C5DF00495F59 /* Brown Munde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996427B7C5DE00495F59 /* Brown Munde.mp3 */; };
+		CDFA998227B7C5DF00495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996527B7C5DE00495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 */; };
+		CDFA998327B7C5DF00495F59 /* Dil Galti Kar Baitha Hai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996627B7C5DE00495F59 /* Dil Galti Kar Baitha Hai.mp3 */; };
+		CDFA998427B7C5DF00495F59 /* One Touch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996727B7C5DE00495F59 /* One Touch.mp3 */; };
+		CDFA998527B7C5DF00495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996827B7C5DE00495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 */; };
+		CDFA998627B7C5DF00495F59 /* Baliye Re - Jersey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996927B7C5DE00495F59 /* Baliye Re - Jersey.mp3 */; };
+		CDFA998727B7C5DF00495F59 /* Rabb Jane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996A27B7C5DE00495F59 /* Rabb Jane.mp3 */; };
+		CDFA998827B7C5DF00495F59 /* Soch Liya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996B27B7C5DE00495F59 /* Soch Liya.mp3 */; };
+		CDFA998927B7C5DF00495F59 /* Yaariyan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996C27B7C5DE00495F59 /* Yaariyan.mp3 */; };
+		CDFA998A27B7C5DF00495F59 /* Aashiqui Aa Gayi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996D27B7C5DE00495F59 /* Aashiqui Aa Gayi.mp3 */; };
+		CDFA998B27B7C5DF00495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996E27B7C5DE00495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 */; };
+		CDFA998C27B7C5DF00495F59 /* Chaldi Kudi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA996F27B7C5DE00495F59 /* Chaldi Kudi.mp3 */; };
+		CDFA998D27B7C5DF00495F59 /* Kithe Chaliye Tu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA997027B7C5DE00495F59 /* Kithe Chaliye Tu.mp3 */; };
+		CDFA998E27B7C5DF00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA997127B7C5DE00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 */; };
+		CDFA998F27B7C5DF00495F59 /* Filhaal-2-Mohabbat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA997227B7C5DE00495F59 /* Filhaal-2-Mohabbat.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,33 +53,35 @@
 		CDFA990B27B79F9B00495F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFA990E27B79F9B00495F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDFA991027B79F9B00495F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDFA991B27B7BD5700495F59 /* Aashiqui Aa Gayi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Aashiqui Aa Gayi.mp3"; sourceTree = "<group>"; };
-		CDFA991D27B7BDA100495F59 /* Baliye Re - Jersey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Baliye Re - Jersey.mp3"; sourceTree = "<group>"; };
-		CDFA991E27B7BDA200495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pehli-Mohabbat_320(PaglaSongs).mp3"; sourceTree = "<group>"; };
-		CDFA991F27B7BDA200495F59 /* One Touch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Touch.mp3"; sourceTree = "<group>"; };
-		CDFA992027B7BDA200495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tum-Agar-Manoge_320(PaglaSongs).mp3"; sourceTree = "<group>"; };
-		CDFA992127B7BDA200495F59 /* Din Raat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Din Raat.mp3"; sourceTree = "<group>"; };
-		CDFA992227B7BDA200495F59 /* Yaariyan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yaariyan.mp3; sourceTree = "<group>"; };
-		CDFA992327B7BDA200495F59 /* Judai - Jannat 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Judai - Jannat 320Kbps.mp3"; sourceTree = "<group>"; };
-		CDFA992427B7BDA200495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3"; sourceTree = "<group>"; };
-		CDFA992527B7BDA300495F59 /* Kithe Chaliye Tu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kithe Chaliye Tu.mp3"; sourceTree = "<group>"; };
-		CDFA992627B7BDA300495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3"; sourceTree = "<group>"; };
-		CDFA992727B7BDA300495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3"; sourceTree = "<group>"; };
-		CDFA992827B7BDA300495F59 /* Filhaal-2-Mohabbat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Filhaal-2-Mohabbat.mp3"; sourceTree = "<group>"; };
-		CDFA992927B7BDA300495F59 /* Soch Liya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Soch Liya.mp3"; sourceTree = "<group>"; };
-		CDFA992A27B7BDA300495F59 /* Dil Galti Kar Baitha Hai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dil Galti Kar Baitha Hai.mp3"; sourceTree = "<group>"; };
-		CDFA992B27B7BDA300495F59 /* Brown Munde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brown Munde.mp3"; sourceTree = "<group>"; };
-		CDFA992C27B7BDA300495F59 /* Jind Meriye - Jersey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jind Meriye - Jersey.mp3"; sourceTree = "<group>"; };
-		CDFA992D27B7BDA400495F59 /* Rabb Jane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rabb Jane.mp3"; sourceTree = "<group>"; };
-		CDFA992E27B7BDA400495F59 /* Tujhi Mein - Crook 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tujhi Mein - Crook 320Kbps.mp3"; sourceTree = "<group>"; };
-		CDFA992F27B7BDA400495F59 /* Music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Music.wav; sourceTree = "<group>"; };
-		CDFA993027B7BDA400495F59 /* Bachpan-Ka-Pyar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bachpan-Ka-Pyar.mp3"; sourceTree = "<group>"; };
-		CDFA993127B7BDA400495F59 /* Main Agar Saamne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Main Agar Saamne.mp3"; sourceTree = "<group>"; };
-		CDFA993227B7BDA400495F59 /* Jindey Meriye - Jassie Gill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jindey Meriye - Jassie Gill.mp3"; sourceTree = "<group>"; };
-		CDFA993427B7BDA500495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Teri Yaadon Mein - The Killer 320Kbps.mp3"; sourceTree = "<group>"; };
-		CDFA993527B7BDA500495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mera Dil Bhi Kitna Pagal Hai.mp3"; sourceTree = "<group>"; };
-		CDFA993627B7BDA500495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kali Kali Zulfon Ke - Madhur Sharma.mp3"; sourceTree = "<group>"; };
-		CDFA993727B7BDA500495F59 /* Chaldi Kudi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chaldi Kudi.mp3"; sourceTree = "<group>"; };
+		CDFA995627B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3"; sourceTree = "<group>"; };
+		CDFA995727B7C5DE00495F59 /* Bachpan-Ka-Pyar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bachpan-Ka-Pyar.mp3"; sourceTree = "<group>"; };
+		CDFA995827B7C5DE00495F59 /* Music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Music.wav; sourceTree = "<group>"; };
+		CDFA995927B7C5DE00495F59 /* Tujhi Mein - Crook 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tujhi Mein - Crook 320Kbps.mp3"; sourceTree = "<group>"; };
+		CDFA995A27B7C5DE00495F59 /* Judai - Jannat 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Judai - Jannat 320Kbps.mp3"; sourceTree = "<group>"; };
+		CDFA995B27B7C5DE00495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kali Kali Zulfon Ke - Madhur Sharma.mp3"; sourceTree = "<group>"; };
+		CDFA995C27B7C5DE00495F59 /* Hawayein.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hawayein.mp3; sourceTree = "<group>"; };
+		CDFA995D27B7C5DE00495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tum-Agar-Manoge_320(PaglaSongs).mp3"; sourceTree = "<group>"; };
+		CDFA995E27B7C5DE00495F59 /* Main Agar Saamne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Main Agar Saamne.mp3"; sourceTree = "<group>"; };
+		CDFA995F27B7C5DE00495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3"; sourceTree = "<group>"; };
+		CDFA996027B7C5DE00495F59 /* Barns Courtney-Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Barns Courtney-Fire.mp3"; sourceTree = "<group>"; };
+		CDFA996127B7C5DE00495F59 /* Jindey Meriye - Jassie Gill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jindey Meriye - Jassie Gill.mp3"; sourceTree = "<group>"; };
+		CDFA996227B7C5DE00495F59 /* Jind Meriye - Jersey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jind Meriye - Jersey.mp3"; sourceTree = "<group>"; };
+		CDFA996327B7C5DE00495F59 /* Din Raat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Din Raat.mp3"; sourceTree = "<group>"; };
+		CDFA996427B7C5DE00495F59 /* Brown Munde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brown Munde.mp3"; sourceTree = "<group>"; };
+		CDFA996527B7C5DE00495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pehli-Mohabbat_320(PaglaSongs).mp3"; sourceTree = "<group>"; };
+		CDFA996627B7C5DE00495F59 /* Dil Galti Kar Baitha Hai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dil Galti Kar Baitha Hai.mp3"; sourceTree = "<group>"; };
+		CDFA996727B7C5DE00495F59 /* One Touch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One Touch.mp3"; sourceTree = "<group>"; };
+		CDFA996827B7C5DE00495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Teri Yaadon Mein - The Killer 320Kbps.mp3"; sourceTree = "<group>"; };
+		CDFA996927B7C5DE00495F59 /* Baliye Re - Jersey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Baliye Re - Jersey.mp3"; sourceTree = "<group>"; };
+		CDFA996A27B7C5DE00495F59 /* Rabb Jane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rabb Jane.mp3"; sourceTree = "<group>"; };
+		CDFA996B27B7C5DE00495F59 /* Soch Liya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Soch Liya.mp3"; sourceTree = "<group>"; };
+		CDFA996C27B7C5DE00495F59 /* Yaariyan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yaariyan.mp3; sourceTree = "<group>"; };
+		CDFA996D27B7C5DE00495F59 /* Aashiqui Aa Gayi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Aashiqui Aa Gayi.mp3"; sourceTree = "<group>"; };
+		CDFA996E27B7C5DE00495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mera Dil Bhi Kitna Pagal Hai.mp3"; sourceTree = "<group>"; };
+		CDFA996F27B7C5DE00495F59 /* Chaldi Kudi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chaldi Kudi.mp3"; sourceTree = "<group>"; };
+		CDFA997027B7C5DE00495F59 /* Kithe Chaliye Tu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kithe Chaliye Tu.mp3"; sourceTree = "<group>"; };
+		CDFA997127B7C5DE00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3"; sourceTree = "<group>"; };
+		CDFA997227B7C5DE00495F59 /* Filhaal-2-Mohabbat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Filhaal-2-Mohabbat.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				CDFA990B27B79F9B00495F59 /* Assets.xcassets */,
-				CDFA991A27B7BC5800495F59 /* Sounds */,
+				CDFA995527B7C5DE00495F59 /* Sounds */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -154,40 +158,41 @@
 			path = "View Controller";
 			sourceTree = "<group>";
 		};
-		CDFA991A27B7BC5800495F59 /* Sounds */ = {
+		CDFA995527B7C5DE00495F59 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				CDFA991B27B7BD5700495F59 /* Aashiqui Aa Gayi.mp3 */,
-				CDFA993027B7BDA400495F59 /* Bachpan-Ka-Pyar.mp3 */,
-				CDFA991D27B7BDA100495F59 /* Baliye Re - Jersey.mp3 */,
-				CDFA992427B7BDA200495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 */,
-				CDFA992B27B7BDA300495F59 /* Brown Munde.mp3 */,
-				CDFA993727B7BDA500495F59 /* Chaldi Kudi.mp3 */,
-				CDFA992A27B7BDA300495F59 /* Dil Galti Kar Baitha Hai.mp3 */,
-				CDFA992127B7BDA200495F59 /* Din Raat.mp3 */,
-				CDFA992827B7BDA300495F59 /* Filhaal-2-Mohabbat.mp3 */,
-				CDFA992727B7BDA300495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 */,
-				CDFA992C27B7BDA300495F59 /* Jind Meriye - Jersey.mp3 */,
-				CDFA993227B7BDA400495F59 /* Jindey Meriye - Jassie Gill.mp3 */,
-				CDFA992327B7BDA200495F59 /* Judai - Jannat 320Kbps.mp3 */,
-				CDFA993627B7BDA500495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 */,
-				CDFA992527B7BDA300495F59 /* Kithe Chaliye Tu.mp3 */,
-				CDFA993127B7BDA400495F59 /* Main Agar Saamne.mp3 */,
-				CDFA993527B7BDA500495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 */,
-				CDFA992F27B7BDA400495F59 /* Music.wav */,
-				CDFA991F27B7BDA200495F59 /* One Touch.mp3 */,
-				CDFA991E27B7BDA200495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 */,
-				CDFA992D27B7BDA400495F59 /* Rabb Jane.mp3 */,
-				CDFA992927B7BDA300495F59 /* Soch Liya.mp3 */,
-				CDFA993427B7BDA500495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 */,
-				CDFA992E27B7BDA400495F59 /* Tujhi Mein - Crook 320Kbps.mp3 */,
-				CDFA992027B7BDA200495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 */,
-				CDFA992627B7BDA300495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 */,
-				CDFA992227B7BDA200495F59 /* Yaariyan.mp3 */,
+				CDFA995627B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 */,
+				CDFA995727B7C5DE00495F59 /* Bachpan-Ka-Pyar.mp3 */,
+				CDFA995827B7C5DE00495F59 /* Music.wav */,
+				CDFA995927B7C5DE00495F59 /* Tujhi Mein - Crook 320Kbps.mp3 */,
+				CDFA995A27B7C5DE00495F59 /* Judai - Jannat 320Kbps.mp3 */,
+				CDFA995B27B7C5DE00495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 */,
+				CDFA995C27B7C5DE00495F59 /* Hawayein.mp3 */,
+				CDFA995D27B7C5DE00495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 */,
+				CDFA995E27B7C5DE00495F59 /* Main Agar Saamne.mp3 */,
+				CDFA995F27B7C5DE00495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 */,
+				CDFA996027B7C5DE00495F59 /* Barns Courtney-Fire.mp3 */,
+				CDFA996127B7C5DE00495F59 /* Jindey Meriye - Jassie Gill.mp3 */,
+				CDFA996227B7C5DE00495F59 /* Jind Meriye - Jersey.mp3 */,
+				CDFA996327B7C5DE00495F59 /* Din Raat.mp3 */,
+				CDFA996427B7C5DE00495F59 /* Brown Munde.mp3 */,
+				CDFA996527B7C5DE00495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 */,
+				CDFA996627B7C5DE00495F59 /* Dil Galti Kar Baitha Hai.mp3 */,
+				CDFA996727B7C5DE00495F59 /* One Touch.mp3 */,
+				CDFA996827B7C5DE00495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 */,
+				CDFA996927B7C5DE00495F59 /* Baliye Re - Jersey.mp3 */,
+				CDFA996A27B7C5DE00495F59 /* Rabb Jane.mp3 */,
+				CDFA996B27B7C5DE00495F59 /* Soch Liya.mp3 */,
+				CDFA996C27B7C5DE00495F59 /* Yaariyan.mp3 */,
+				CDFA996D27B7C5DE00495F59 /* Aashiqui Aa Gayi.mp3 */,
+				CDFA996E27B7C5DE00495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 */,
+				CDFA996F27B7C5DE00495F59 /* Chaldi Kudi.mp3 */,
+				CDFA997027B7C5DE00495F59 /* Kithe Chaliye Tu.mp3 */,
+				CDFA997127B7C5DE00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 */,
+				CDFA997227B7C5DE00495F59 /* Filhaal-2-Mohabbat.mp3 */,
 			);
-			name = Sounds;
-			path = IOSAudioPlayer;
-			sourceTree = SOURCE_ROOT;
+			path = Sounds;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -247,36 +252,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFA994C27B7BDA500495F59 /* Bachpan-Ka-Pyar.mp3 in Resources */,
-				CDFA994127B7BDA500495F59 /* Kithe Chaliye Tu.mp3 in Resources */,
-				CDFA994227B7BDA500495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 in Resources */,
-				CDFA994D27B7BDA500495F59 /* Main Agar Saamne.mp3 in Resources */,
-				CDFA994327B7BDA500495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 in Resources */,
-				CDFA993E27B7BDA500495F59 /* Yaariyan.mp3 in Resources */,
-				CDFA995227B7BDA500495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 in Resources */,
+				CDFA998727B7C5DF00495F59 /* Rabb Jane.mp3 in Resources */,
+				CDFA997927B7C5DF00495F59 /* Hawayein.mp3 in Resources */,
+				CDFA997527B7C5DE00495F59 /* Music.wav in Resources */,
+				CDFA998127B7C5DF00495F59 /* Brown Munde.mp3 in Resources */,
+				CDFA997827B7C5DE00495F59 /* Kali Kali Zulfon Ke - Madhur Sharma.mp3 in Resources */,
+				CDFA998227B7C5DF00495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 in Resources */,
+				CDFA998927B7C5DF00495F59 /* Yaariyan.mp3 in Resources */,
+				CDFA997E27B7C5DF00495F59 /* Jindey Meriye - Jassie Gill.mp3 in Resources */,
+				CDFA998827B7C5DF00495F59 /* Soch Liya.mp3 in Resources */,
 				CDFA990F27B79F9B00495F59 /* LaunchScreen.storyboard in Resources */,
-				CDFA994827B7BDA500495F59 /* Jind Meriye - Jersey.mp3 in Resources */,
-				CDFA993D27B7BDA500495F59 /* Din Raat.mp3 in Resources */,
-				CDFA993B27B7BDA500495F59 /* One Touch.mp3 in Resources */,
-				CDFA995327B7BDA500495F59 /* Chaldi Kudi.mp3 in Resources */,
-				CDFA993A27B7BDA500495F59 /* Pehli-Mohabbat_320(PaglaSongs).mp3 in Resources */,
+				CDFA998027B7C5DF00495F59 /* Din Raat.mp3 in Resources */,
+				CDFA997F27B7C5DF00495F59 /* Jind Meriye - Jersey.mp3 in Resources */,
+				CDFA997327B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 in Resources */,
+				CDFA998527B7C5DF00495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 in Resources */,
+				CDFA998B27B7C5DF00495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 in Resources */,
+				CDFA998F27B7C5DF00495F59 /* Filhaal-2-Mohabbat.mp3 in Resources */,
+				CDFA998D27B7C5DF00495F59 /* Kithe Chaliye Tu.mp3 in Resources */,
+				CDFA998A27B7C5DF00495F59 /* Aashiqui Aa Gayi.mp3 in Resources */,
+				CDFA998C27B7C5DF00495F59 /* Chaldi Kudi.mp3 in Resources */,
+				CDFA998E27B7C5DF00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 in Resources */,
+				CDFA997727B7C5DE00495F59 /* Judai - Jannat 320Kbps.mp3 in Resources */,
+				CDFA997427B7C5DE00495F59 /* Bachpan-Ka-Pyar.mp3 in Resources */,
+				CDFA997B27B7C5DF00495F59 /* Main Agar Saamne.mp3 in Resources */,
 				CDFA990C27B79F9B00495F59 /* Assets.xcassets in Resources */,
+				CDFA998627B7C5DF00495F59 /* Baliye Re - Jersey.mp3 in Resources */,
+				CDFA997627B7C5DE00495F59 /* Tujhi Mein - Crook 320Kbps.mp3 in Resources */,
+				CDFA998427B7C5DF00495F59 /* One Touch.mp3 in Resources */,
+				CDFA997C27B7C5DF00495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 in Resources */,
+				CDFA997A27B7C5DF00495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 in Resources */,
+				CDFA998327B7C5DF00495F59 /* Dil Galti Kar Baitha Hai.mp3 in Resources */,
 				CDFA990A27B79F9500495F59 /* Main.storyboard in Resources */,
-				CDFA995127B7BDA500495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 in Resources */,
-				CDFA995027B7BDA500495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 in Resources */,
-				CDFA993F27B7BDA500495F59 /* Judai - Jannat 320Kbps.mp3 in Resources */,
-				CDFA993927B7BDA500495F59 /* Baliye Re - Jersey.mp3 in Resources */,
-				CDFA994727B7BDA500495F59 /* Brown Munde.mp3 in Resources */,
-				CDFA991C27B7BD5700495F59 /* Aashiqui Aa Gayi.mp3 in Resources */,
-				CDFA994A27B7BDA500495F59 /* Tujhi Mein - Crook 320Kbps.mp3 in Resources */,
-				CDFA994927B7BDA500495F59 /* Rabb Jane.mp3 in Resources */,
-				CDFA994B27B7BDA500495F59 /* Music.wav in Resources */,
-				CDFA994527B7BDA500495F59 /* Soch Liya.mp3 in Resources */,
-				CDFA994E27B7BDA500495F59 /* Jindey Meriye - Jassie Gill.mp3 in Resources */,
-				CDFA994027B7BDA500495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 in Resources */,
-				CDFA993C27B7BDA500495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 in Resources */,
-				CDFA994427B7BDA500495F59 /* Filhaal-2-Mohabbat.mp3 in Resources */,
-				CDFA994627B7BDA500495F59 /* Dil Galti Kar Baitha Hai.mp3 in Resources */,
+				CDFA997D27B7C5DF00495F59 /* Barns Courtney-Fire.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
