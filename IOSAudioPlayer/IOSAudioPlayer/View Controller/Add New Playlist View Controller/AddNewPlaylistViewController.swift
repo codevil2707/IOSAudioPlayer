@@ -68,97 +68,29 @@ class AddNewPlaylistViewController:UIViewController{
     
     
     
-    ///on clicking set image button in add playlist
-    @objc func onImage(){
-        if ((popupImage?.isHidden) != nil){
-            popupImage?.layer.opacity = 0.0
-            popupImage?.isHidden = false
-        } else{
-        popupImage = PopupImage(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
-           modalTransitionStyle = .crossDissolve
-            modalPresentationStyle = .overFullScreen
-            popupImage?.popupCollectionView?.delegate = self
-            popupImage?.popupCollectionView?.dataSource = self
-            popupImage?.isHidden = false
-            popupImage?.layer.opacity = 0.0
-            popupImage?.popupButton.addTarget(self, action: #selector(onDismiss), for: .touchUpInside)
-           view.addSubview(popupImage!)
-            
-            
-            
-            
-        }
-        fadeIn(popupImage!)
-              
-    }
+  
+ 
     
-    @objc func onDismiss(){
-          fadeOut(popupImage!)
-    
-        
-    }
-   ///on clicking done button to set name image and song to create new playlist
-    @objc func onDone(){
-        if selectedSong.count == 0{
-            print("Add Song")
-        } else{
-            if (newAlbumName == nil){onAdd()}
-            if (newAlbumImage == nil){onImage()}
-       let newPlaylist = AlbumStruct(albumName:newAlbumName!,albumImage:newAlbumImage!, albumPlaylist: selectedSong)
-        AddNewPlaylistViewController.delegate?.addAlbum(newPlaylist)
-        addInPlaylistFromSonglistTableView.reloadData()
-        }
-        
-    }
-    
-    
-    //MARK: - animation fadeIn/fadeOut
-    func fadeIn(_ view:UIView){
-        _ = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: true) { timer in
-            view.layer.opacity += 0.1
-            if view.layer.opacity == 1.0{
-                timer.invalidate()
-            }
-        }
-        
-//        UIView.animate(withDuration: 1.0, delay: 0, options: .curveEaseInOut) {
-//            view.layer.opacity = 1.0
-//        } completion: { succeed in
-//            if succeed {
-//                print("Done ae  ji")
-//            }
-//        }
 
-    }
-    func fadeOut(_ view:UIView){
-        _ = Timer.scheduledTimer(withTimeInterval: 0.3, repeats: true) { timer in
-            view.layer.opacity -= 0.1
-            if view.layer.opacity == 0.0{
-                view.isHidden = true
-                timer.invalidate()
-            }
-        }
-    }
-    
   
 //MARK: - setup Navigation Bar
     func setNavBarOfPlaylist(){
         let startingYPos = UIApplication.shared.statusBarFrame.size.height;
-        let navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: 50))
+        let navBar = UINavigationBar(frame: CGRect(x: 0, y:0, width: view.frame.width, height: self.view.frame.width*0.1))
         view.addSubview(navBar)
         
         let navItem = UINavigationItem(title: "Create Playlist")
-        let done = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(onDone))
-        let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(onAdd))
-        let image = UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(onImage))
+        let done = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: nil)
+        let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: nil)
+       
         let leftItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(onClickedCancel))
-       navItem.rightBarButtonItems = [done,add,image]
+       navItem.rightBarButtonItems = [done,add]
         navItem.leftBarButtonItem = leftItem
         navBar.setItems([navItem], animated: false)
     }
    
     @objc func onClickedCancel(){
-        self.navigationController?.popViewController(animated: true)
+        dismiss(animated: true)
     }
     
 }

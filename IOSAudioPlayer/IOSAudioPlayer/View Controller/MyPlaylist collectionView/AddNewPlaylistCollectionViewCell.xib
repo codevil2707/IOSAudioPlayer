@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AddNewPlaylistCollectionViewCell" customModule="IOSAudioPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="264" height="167"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="264" height="167"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pX2-f2-FcY">
+                        <rect key="frame" x="0.0" y="0.0" width="264" height="167"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="—Pngtree—plus icon_4526657" translatesAutoresizingMaskIntoConstraints="NO" id="dhy-Xx-ULZ">
+                                <rect key="frame" x="0.0" y="0.0" width="264" height="167"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34299999475479126" green="0.23074146621126351" blue="0.31092284817205884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" name="Highlight"/>
+                        <constraints>
+                            <constraint firstItem="dhy-Xx-ULZ" firstAttribute="leading" secondItem="pX2-f2-FcY" secondAttribute="leading" id="5Ao-Jq-swk"/>
+                            <constraint firstAttribute="bottom" secondItem="dhy-Xx-ULZ" secondAttribute="bottom" id="8Qf-yk-sEe"/>
+                            <constraint firstAttribute="trailing" secondItem="dhy-Xx-ULZ" secondAttribute="trailing" id="Tta-VB-NC2"/>
+                            <constraint firstItem="dhy-Xx-ULZ" firstAttribute="top" secondItem="pX2-f2-FcY" secondAttribute="top" id="yZI-KH-E8f"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="pX2-f2-FcY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Biy-Bu-PPD"/>
+                <constraint firstItem="pX2-f2-FcY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fTv-E4-lbZ"/>
+                <constraint firstAttribute="bottom" secondItem="pX2-f2-FcY" secondAttribute="bottom" id="mZH-oD-ln3"/>
+                <constraint firstAttribute="trailing" secondItem="pX2-f2-FcY" secondAttribute="trailing" id="oZP-jv-9U8"/>
+            </constraints>
+            <size key="customSize" width="264" height="167"/>
+            <point key="canvasLocation" x="292.75362318840581" y="129.57589285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="—Pngtree—plus icon_4526657" width="666" height="666"/>
+        <namedColor name="Highlight">
+            <color red="1" green="0.32199999690055847" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

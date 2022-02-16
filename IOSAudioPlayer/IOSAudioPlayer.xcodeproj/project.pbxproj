@@ -22,6 +22,8 @@
 		CD8367E727BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E527BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift */; };
 		CD8367E927BB7060001793F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8367E827BB7060001793F0 /* Main.storyboard */; };
 		CD8367EC27BBA3FA001793F0 /* ThemeColorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367EB27BBA3FA001793F0 /* ThemeColorStruct.swift */; };
+		CD9FC29927BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FC29727BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift */; };
+		CD9FC29A27BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9FC29827BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib */; };
 		CDFA990327B79F9500495F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990227B79F9500495F59 /* AppDelegate.swift */; };
 		CDFA990527B79F9500495F59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990427B79F9500495F59 /* SceneDelegate.swift */; };
 		CDFA990727B79F9500495F59 /* MyPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990627B79F9500495F59 /* MyPlaylistViewController.swift */; };
@@ -79,6 +81,8 @@
 		CD8367E527BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlectedPlaylistTableViewCell.swift; sourceTree = "<group>"; };
 		CD8367E827BB7060001793F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CD8367EB27BBA3FA001793F0 /* ThemeColorStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorStruct.swift; sourceTree = "<group>"; };
+		CD9FC29727BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD9FC29827BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewPlaylistCollectionViewCell.xib; sourceTree = "<group>"; };
 		CDFA98FF27B79F9500495F59 /* IOSAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFA990227B79F9500495F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFA990427B79F9500495F59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */,
+				CD9FC29727BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift */,
+				CD9FC29827BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib */,
 				CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */,
 			);
 			path = "MyPlaylist collectionView";
@@ -399,6 +405,7 @@
 				CDFA998927B7C5DF00495F59 /* Yaariyan.mp3 in Resources */,
 				CDFA997E27B7C5DF00495F59 /* Jindey Meriye - Jassie Gill.mp3 in Resources */,
 				CDFA998827B7C5DF00495F59 /* Soch Liya.mp3 in Resources */,
+				CD9FC29A27BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib in Resources */,
 				CDFA990F27B79F9B00495F59 /* LaunchScreen.storyboard in Resources */,
 				CDFA998027B7C5DF00495F59 /* Din Raat.mp3 in Resources */,
 				CD8367CE27BB6401001793F0 /* MyPlaylistCollectionCell.xib in Resources */,
@@ -434,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9FC29927BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift in Sources */,
 				CDFA999D27B7E7DD00495F59 /* AlbumOfPlaylists.swift in Sources */,
 				CD8367D527BB68B5001793F0 /* arrayOfImageCollectionView.swift in Sources */,
 				CD8367E727BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift in Sources */,

@@ -25,12 +25,22 @@ class MyPlaylistViewController: UIViewController{
     }
     
     func configureCollectionView(){
+        let numberOfColumns : CGFloat = 2
+        let numberOfRows : CGFloat = 2
+        
+        
         myPlaylistCollectionView.delegate = self
         myPlaylistCollectionView.dataSource = self
-        let size = (self.myPlaylistCollectionView.frame.size.width-40)/3
-        let cellSize = CGSize(width: size, height: size)
-      let contentSize = myPlaylistCollectionView.collectionViewLayout as! UICollectionViewFlowLayout
-        contentSize.itemSize = cellSize
+       
+        let customCellWidth = (self.myPlaylistCollectionView.frame.size.width*0.9)/numberOfColumns
+        let cellSize = CGSize(width: customCellWidth, height: customCellWidth)
+        let spacingOfCell = customCellWidth*0.05
+        let layout  = UICollectionViewFlowLayout()
+        
+        layout.sectionInset = UIEdgeInsets(top: spacingOfCell, left: spacingOfCell, bottom: spacingOfCell, right: spacingOfCell)
+        layout.itemSize = cellSize
+        myPlaylistCollectionView.setCollectionViewLayout(layout, animated: true)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -74,6 +84,9 @@ class MyPlaylistViewController: UIViewController{
     func setCollectionViewCell(){
         let nibCell = UINib(nibName: "MyPlaylistCollectionCell", bundle: nil)
         myPlaylistCollectionView.register(nibCell, forCellWithReuseIdentifier: "cell")
+        let addNewPlalistNibCell = UINib(nibName: "AddNewPlaylistCollectionViewCell", bundle: nil)
+        myPlaylistCollectionView.register(addNewPlalistNibCell, forCellWithReuseIdentifier: "emptyCell")
+        
     }
 
 
@@ -83,24 +96,38 @@ class MyPlaylistViewController: UIViewController{
 
 extension MyPlaylistViewController:UICollectionViewDelegate, UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        _  = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! MyPlaylistCollectionCell
+        if indexPath.row == 0{
+           
+    let storyboard = UIStoryboard(name: "Main", bundle:Bundle.main)
+        let addNewPlaylistVC = storyboard.instantiateViewController(identifier: "AddNewPlaylistViewController") as! AddNewPlaylistViewController
+            present(addNewPlaylistVC, animated: true, completion: nil)
+        }
+        else{
+            
 
         pushToPlaylist(indexPath.row)
         print(indexPath.row)
+        }
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return albumPlaylistArray.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if indexPath.row==0{
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "emptyCell", for: indexPath) as! AddNewPlaylistCollectionViewCell
+            return cell
+        }
+        else{
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! MyPlaylistCollectionCell
        
-        let imageOfAlbum = albumPlaylistArray[indexPath.row].albumImage!
-       let nameOfAlbum = albumPlaylistArray[indexPath.row].albumName!
+       if  let imageOfAlbum = albumPlaylistArray[indexPath.row].albumImage,
+           let nameOfAlbum = albumPlaylistArray[indexPath.row].albumName {
         cell.configure(imageOfAlbum, nameOfAlbum)
+       }
         return cell
     }
-
+    }
 
 }
 //extension MyPlaylistViewController:UICollectionViewDelegateFlowLayout{

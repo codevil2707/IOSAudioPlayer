@@ -34,14 +34,14 @@
                         </constraints>
                     </stackView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G31-iL-MhJ">
-                        <rect key="frame" x="123" y="0.0" width="31" height="27"/>
+                        <rect key="frame" x="123" y="0.0" width="31" height="31"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain">
                             <backgroundConfiguration key="background" image="—Pngtree—delete vector icon_4236653"/>
                         </buttonConfiguration>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34R-KL-KLS">
-                        <rect key="frame" x="0.0" y="80" width="47" height="28"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34R-KL-KLS">
+                        <rect key="frame" x="0.0" y="83.5" width="44.5" height="45"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain">
                             <backgroundConfiguration key="background" image="play"/>
@@ -52,18 +52,18 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="34R-KL-KLS" firstAttribute="height" secondItem="a2g-TG-OIN" secondAttribute="height" multiplier="0.34" id="79q-QT-9AT"/>
+                <constraint firstItem="34R-KL-KLS" firstAttribute="width" secondItem="a2g-TG-OIN" secondAttribute="width" multiplier="0.29" id="5XJ-jB-oNQ"/>
                 <constraint firstItem="G31-iL-MhJ" firstAttribute="width" secondItem="u8e-a9-wpH" secondAttribute="width" multiplier="0.2" id="9xN-yc-dG5"/>
                 <constraint firstItem="G31-iL-MhJ" firstAttribute="top" secondItem="u8e-a9-wpH" secondAttribute="top" id="EB4-03-n3y"/>
+                <constraint firstItem="34R-KL-KLS" firstAttribute="height" secondItem="a2g-TG-OIN" secondAttribute="width" multiplier="0.29" id="Ecz-Zi-qsP"/>
                 <constraint firstItem="u8e-a9-wpH" firstAttribute="bottom" secondItem="ZTg-uK-7eu" secondAttribute="bottom" id="PiP-ge-iDZ"/>
                 <constraint firstAttribute="top" secondItem="u8e-a9-wpH" secondAttribute="top" id="S1g-q4-GLo"/>
                 <constraint firstItem="34R-KL-KLS" firstAttribute="bottom" secondItem="a2g-TG-OIN" secondAttribute="bottom" id="Whe-Fp-pzx"/>
                 <constraint firstItem="G31-iL-MhJ" firstAttribute="trailing" secondItem="u8e-a9-wpH" secondAttribute="trailing" id="XJq-36-Ozh"/>
                 <constraint firstItem="u8e-a9-wpH" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="eQV-uh-2dU"/>
-                <constraint firstItem="34R-KL-KLS" firstAttribute="width" secondItem="a2g-TG-OIN" secondAttribute="width" multiplier="0.31" id="jIO-5O-NaE"/>
                 <constraint firstItem="34R-KL-KLS" firstAttribute="leading" secondItem="a2g-TG-OIN" secondAttribute="leading" id="l9E-T9-1IW"/>
                 <constraint firstItem="u8e-a9-wpH" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="wdS-E9-dxA"/>
-                <constraint firstItem="G31-iL-MhJ" firstAttribute="height" secondItem="u8e-a9-wpH" secondAttribute="height" multiplier="0.18" id="yHd-VR-f9x"/>
+                <constraint firstItem="G31-iL-MhJ" firstAttribute="height" secondItem="u8e-a9-wpH" secondAttribute="width" multiplier="0.2" id="yHd-VR-f9x"/>
             </constraints>
             <size key="customSize" width="221" height="265"/>
             <connections>

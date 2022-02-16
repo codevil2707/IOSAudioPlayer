@@ -60,47 +60,6 @@ final class PopupView: UIView{
            // Add the popupView(box) in the PopUpWindowView (semi-transparent background)
            addSubview(popupView)
            
-           //MARK: - give frame the subviews of our view
-           
-           
-           // PopupView constraints
-           popupView.translatesAutoresizingMaskIntoConstraints = false
-           NSLayoutConstraint.activate([
-               popupView.widthAnchor.constraint(equalToConstant: 293),
-               popupView.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-               popupView.centerXAnchor.constraint(equalTo: self.centerXAnchor)
-               ])
-           
-           // PopupTitle constraints
-           popupTitle.translatesAutoresizingMaskIntoConstraints = false
-           NSLayoutConstraint.activate([
-               popupTitle.leadingAnchor.constraint(equalTo: popupView.leadingAnchor, constant: BorderWidth),
-               popupTitle.trailingAnchor.constraint(equalTo: popupView.trailingAnchor, constant: -BorderWidth),
-               popupTitle.topAnchor.constraint(equalTo: popupView.topAnchor, constant: BorderWidth),
-               popupTitle.heightAnchor.constraint(equalToConstant: 55)
-               ])
-           
-           
-           // PopupText constraints
-           popupText.translatesAutoresizingMaskIntoConstraints = false
-           NSLayoutConstraint.activate([
-               popupText.heightAnchor.constraint(greaterThanOrEqualToConstant: 67),
-               popupText.topAnchor.constraint(equalTo: popupTitle.bottomAnchor, constant: 0),
-               popupText.leadingAnchor.constraint(equalTo: popupView.leadingAnchor, constant: BorderWidth),
-               popupText.trailingAnchor.constraint(equalTo: popupView.trailingAnchor, constant: -BorderWidth),
-               popupText.bottomAnchor.constraint(equalTo: popupButton.topAnchor, constant: 0)
-               ])
-
-           
-           // PopupButton constraints
-           popupButton.translatesAutoresizingMaskIntoConstraints = false
-           NSLayoutConstraint.activate([
-               popupButton.heightAnchor.constraint(equalToConstant: 44),
-               popupButton.leadingAnchor.constraint(equalTo: popupView.leadingAnchor, constant: BorderWidth),
-               popupButton.trailingAnchor.constraint(equalTo: popupView.trailingAnchor, constant: -BorderWidth),
-               popupButton.bottomAnchor.constraint(equalTo: popupView.bottomAnchor, constant: -BorderWidth)
-               ])
-           
        }
        
        required init?(coder aDecoder: NSCoder) {

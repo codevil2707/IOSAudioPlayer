@@ -15,7 +15,8 @@ class MyPlaylistCollectionCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-      
+        self.layer.cornerRadius = 5
+        self.layer.masksToBounds = true
 //        playlistAlbumCoverImageView.translatesAutoresizingMaskIntoConstraints = true
 //        playlistAlbumCoverNameLabel.translatesAutoresizingMaskIntoConstraints = true
     }

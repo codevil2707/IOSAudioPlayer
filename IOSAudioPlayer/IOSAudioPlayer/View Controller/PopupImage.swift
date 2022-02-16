@@ -39,10 +39,11 @@ class PopupImage: UIView {
            let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
             layout.scrollDirection = .horizontal
             layout.sectionInset = UIEdgeInsets(top: 20, left: 10, bottom: 10, right: 10)
+           
             layout.itemSize = CGSize(width: 80, height: 80)
                 
            popupCollectionView = UICollectionView(frame: CGRect(x: 0, y: 55, width: 300, height: 110), collectionViewLayout: layout)
-        
+      
            let nibCell = UINib(nibName: "ArrayOfImagesCollectionViewCell", bundle: nil)
            popupCollectionView?.register(nibCell, forCellWithReuseIdentifier: "MyCell")
             popupCollectionView?.backgroundColor = UIColor.white

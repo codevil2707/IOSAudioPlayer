@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 var albumPlaylistArray = [
+    AlbumStruct(albumName: "", albumImage: UIImage(named: ""), albumPlaylist: [SongInfo(songName: "", songTitle: "", songArtist: "", songImage: "", songExt: "")]),
     AlbumStruct(albumName: "Sufi", albumImage: UIImage(named: "Sufi"), albumPlaylist: [SongInfo(songName: "Kithe Chaliye Tu", songTitle: "Kithe-chaliye-tu", songArtist: "Jubin Nautiyal", songImage:"Kithe Chaliye Tu" , songExt: "mp3"),
                 SongInfo(songName: "Filhaal-2-Mohabbat", songTitle:  "Filhaal-2-Mohabbat", songArtist: "B-praak", songImage:  "Filhaal-2-Mohabbat", songExt:"mp3")]),
     AlbumStruct(albumName: "Bollywood", albumImage: UIImage(named: "Bollywood"), albumPlaylist: [  SongInfo(songName: "Hawayein", songTitle: "Hawayein",songArtist: "Arijit Singh" ,songImage: "Hawayein", songExt: "mp3"),SongInfo(songName: "Barns Courtney-Fire", songTitle: "Barns Courtney-Fire",songArtist: "Barns Courtney", songImage: "Barns Courtney-Fire", songExt: "mp3"),
