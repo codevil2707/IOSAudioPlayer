@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyPlaylistCollectionCell" customModule="IOSAudioPlayer" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MyPlaylistCollectionCell" customModule="IOSAudioPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="154" height="151"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="154" height="151"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="u8e-a9-wpH">
+                        <rect key="frame" x="0.0" y="0.0" width="154" height="151"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bollywood" translatesAutoresizingMaskIntoConstraints="NO" id="a2g-TG-OIN">
+                                <rect key="frame" x="0.0" y="0.0" width="154" height="128.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgx-mh-moH">
+                                <rect key="frame" x="0.0" y="128.5" width="154" height="22.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="a2g-TG-OIN" firstAttribute="height" secondItem="u8e-a9-wpH" secondAttribute="height" multiplier="0.85" id="qqa-gc-DlU"/>
+                        </constraints>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G31-iL-MhJ">
+                        <rect key="frame" x="123" y="0.0" width="31" height="27"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <backgroundConfiguration key="background" image="—Pngtree—delete vector icon_4236653"/>
+                        </buttonConfiguration>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34R-KL-KLS">
+                        <rect key="frame" x="0.0" y="80" width="47" height="28"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <backgroundConfiguration key="background" image="play"/>
+                        </buttonConfiguration>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="34R-KL-KLS" firstAttribute="height" secondItem="a2g-TG-OIN" secondAttribute="height" multiplier="0.34" id="79q-QT-9AT"/>
+                <constraint firstItem="G31-iL-MhJ" firstAttribute="width" secondItem="u8e-a9-wpH" secondAttribute="width" multiplier="0.2" id="9xN-yc-dG5"/>
+                <constraint firstItem="G31-iL-MhJ" firstAttribute="top" secondItem="u8e-a9-wpH" secondAttribute="top" id="EB4-03-n3y"/>
+                <constraint firstItem="u8e-a9-wpH" firstAttribute="bottom" secondItem="ZTg-uK-7eu" secondAttribute="bottom" id="PiP-ge-iDZ"/>
+                <constraint firstAttribute="top" secondItem="u8e-a9-wpH" secondAttribute="top" id="S1g-q4-GLo"/>
+                <constraint firstItem="34R-KL-KLS" firstAttribute="bottom" secondItem="a2g-TG-OIN" secondAttribute="bottom" id="Whe-Fp-pzx"/>
+                <constraint firstItem="G31-iL-MhJ" firstAttribute="trailing" secondItem="u8e-a9-wpH" secondAttribute="trailing" id="XJq-36-Ozh"/>
+                <constraint firstItem="u8e-a9-wpH" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="eQV-uh-2dU"/>
+                <constraint firstItem="34R-KL-KLS" firstAttribute="width" secondItem="a2g-TG-OIN" secondAttribute="width" multiplier="0.31" id="jIO-5O-NaE"/>
+                <constraint firstItem="34R-KL-KLS" firstAttribute="leading" secondItem="a2g-TG-OIN" secondAttribute="leading" id="l9E-T9-1IW"/>
+                <constraint firstItem="u8e-a9-wpH" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="wdS-E9-dxA"/>
+                <constraint firstItem="G31-iL-MhJ" firstAttribute="height" secondItem="u8e-a9-wpH" secondAttribute="height" multiplier="0.18" id="yHd-VR-f9x"/>
+            </constraints>
+            <size key="customSize" width="221" height="265"/>
+            <connections>
+                <outlet property="CoverImageView" destination="a2g-TG-OIN" id="GNG-31-eh4"/>
+                <outlet property="NameLabel" destination="fgx-mh-moH" id="LC8-V8-5WD"/>
+            </connections>
+            <point key="canvasLocation" x="-468.11594202898556" y="-65.959821428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Bollywood" width="1360.5" height="907"/>
+        <image name="play" width="100" height="100"/>
+        <image name="—Pngtree—delete vector icon_4236653" width="433" height="433"/>
+    </resources>
+</document>

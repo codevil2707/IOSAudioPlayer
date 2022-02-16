@@ -7,10 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8367CC27BB63F1001793F0 /* MyPlaylistCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */; };
+		CD8367CE27BB6401001793F0 /* MyPlaylistCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */; };
+		CD8367D027BB6826001793F0 /* AddNewPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */; };
+		CD8367D527BB68B5001793F0 /* arrayOfImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367D427BB68B4001793F0 /* arrayOfImageCollectionView.swift */; };
+		CD8367D727BB68CC001793F0 /* ArrayOfImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */; };
+		CD8367D927BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */; };
+		CD8367DB27BB68F7001793F0 /* PopupImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367DA27BB68F7001793F0 /* PopupImage.swift */; };
+		CD8367DD27BB6947001793F0 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367DC27BB6947001793F0 /* PopupView.swift */; };
+		CD8367DF27BB6963001793F0 /* SongListToAddPlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367DE27BB6963001793F0 /* SongListToAddPlaylistCell.swift */; };
+		CD8367E127BB6B4F001793F0 /* PlayerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E027BB6B4F001793F0 /* PlayerLogic.swift */; };
+		CD8367E327BB6B64001793F0 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E227BB6B64001793F0 /* AudioPlayerViewController.swift */; };
+		CD8367E627BB6B7F001793F0 /* SelectedPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */; };
+		CD8367E727BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E527BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift */; };
+		CD8367E927BB7060001793F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8367E827BB7060001793F0 /* Main.storyboard */; };
+		CD8367EC27BBA3FA001793F0 /* ThemeColorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367EB27BBA3FA001793F0 /* ThemeColorStruct.swift */; };
 		CDFA990327B79F9500495F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990227B79F9500495F59 /* AppDelegate.swift */; };
 		CDFA990527B79F9500495F59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990427B79F9500495F59 /* SceneDelegate.swift */; };
-		CDFA990727B79F9500495F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990627B79F9500495F59 /* ViewController.swift */; };
-		CDFA990A27B79F9500495F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFA990827B79F9500495F59 /* Main.storyboard */; };
+		CDFA990727B79F9500495F59 /* MyPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990627B79F9500495F59 /* MyPlaylistViewController.swift */; };
 		CDFA990C27B79F9B00495F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFA990B27B79F9B00495F59 /* Assets.xcassets */; };
 		CDFA990F27B79F9B00495F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFA990D27B79F9B00495F59 /* LaunchScreen.storyboard */; };
 		CDFA997327B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA995627B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 */; };
@@ -42,14 +56,33 @@
 		CDFA998D27B7C5DF00495F59 /* Kithe Chaliye Tu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA997027B7C5DE00495F59 /* Kithe Chaliye Tu.mp3 */; };
 		CDFA998E27B7C5DF00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA997127B7C5DE00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 */; };
 		CDFA998F27B7C5DF00495F59 /* Filhaal-2-Mohabbat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDFA997227B7C5DE00495F59 /* Filhaal-2-Mohabbat.mp3 */; };
+		CDFA999327B7C89300495F59 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA999227B7C89300495F59 /* NavigationBar.swift */; };
+		CDFA999627B7DFA700495F59 /* AlbumStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA999527B7DFA700495F59 /* AlbumStruct.swift */; };
+		CDFA999D27B7E7DD00495F59 /* AlbumOfPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA999C27B7E7DC00495F59 /* AlbumOfPlaylists.swift */; };
+		CDFA999F27B7E81000495F59 /* AllSongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA999E27B7E81000495F59 /* AllSongList.swift */; };
+		CDFA99A327B7E88600495F59 /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA99A227B7E88600495F59 /* SongInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlaylistCollectionCell.swift; sourceTree = "<group>"; };
+		CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPlaylistCollectionCell.xib; sourceTree = "<group>"; };
+		CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPlaylistViewController.swift; sourceTree = "<group>"; };
+		CD8367D427BB68B4001793F0 /* arrayOfImageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = arrayOfImageCollectionView.swift; sourceTree = "<group>"; };
+		CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayOfImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArrayOfImagesCollectionViewCell.xib; sourceTree = "<group>"; };
+		CD8367DA27BB68F7001793F0 /* PopupImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupImage.swift; sourceTree = "<group>"; };
+		CD8367DC27BB6947001793F0 /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		CD8367DE27BB6963001793F0 /* SongListToAddPlaylistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListToAddPlaylistCell.swift; sourceTree = "<group>"; };
+		CD8367E027BB6B4F001793F0 /* PlayerLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLogic.swift; sourceTree = "<group>"; };
+		CD8367E227BB6B64001793F0 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
+		CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPlaylistViewController.swift; sourceTree = "<group>"; };
+		CD8367E527BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlectedPlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		CD8367E827BB7060001793F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CD8367EB27BBA3FA001793F0 /* ThemeColorStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorStruct.swift; sourceTree = "<group>"; };
 		CDFA98FF27B79F9500495F59 /* IOSAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFA990227B79F9500495F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFA990427B79F9500495F59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDFA990627B79F9500495F59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDFA990927B79F9500495F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDFA990627B79F9500495F59 /* MyPlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaylistViewController.swift; sourceTree = "<group>"; };
 		CDFA990B27B79F9B00495F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDFA990E27B79F9B00495F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDFA991027B79F9B00495F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +115,11 @@
 		CDFA997027B7C5DE00495F59 /* Kithe Chaliye Tu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kithe Chaliye Tu.mp3"; sourceTree = "<group>"; };
 		CDFA997127B7C5DE00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3"; sourceTree = "<group>"; };
 		CDFA997227B7C5DE00495F59 /* Filhaal-2-Mohabbat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Filhaal-2-Mohabbat.mp3"; sourceTree = "<group>"; };
+		CDFA999227B7C89300495F59 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		CDFA999527B7DFA700495F59 /* AlbumStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumStruct.swift; sourceTree = "<group>"; };
+		CDFA999C27B7E7DC00495F59 /* AlbumOfPlaylists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumOfPlaylists.swift; sourceTree = "<group>"; };
+		CDFA999E27B7E81000495F59 /* AllSongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSongList.swift; sourceTree = "<group>"; };
+		CDFA99A227B7E88600495F59 /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +133,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD8367CA27BB62D5001793F0 /* MyPlaylist collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */,
+				CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */,
+			);
+			path = "MyPlaylist collectionView";
+			sourceTree = "<group>";
+		};
+		CD8367D127BB6861001793F0 /* selected Song TableView */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367DE27BB6963001793F0 /* SongListToAddPlaylistCell.swift */,
+			);
+			name = "selected Song TableView";
+			sourceTree = "<group>";
+		};
 		CDFA98F627B79F9400495F59 = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +169,11 @@
 		CDFA990127B79F9500495F59 /* IOSAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				CDFA991927B7BA6300495F59 /* View Controller */,
-				CDFA991827B7BA3B00495F59 /* Utilities */,
-				CDFA991627B7BA0700495F59 /* Resource */,
 				CDFA991727B7BA1A00495F59 /* Application */,
+				CDFA991627B7BA0700495F59 /* Resource */,
+				CDFA991827B7BA3B00495F59 /* Utilities */,
+				CDFA991927B7BA6300495F59 /* View Controller */,
+				CDFA991027B79F9B00495F59 /* Info.plist */,
 			);
 			path = IOSAudioPlayer;
 			sourceTree = "<group>";
@@ -136,9 +192,7 @@
 			children = (
 				CDFA990227B79F9500495F59 /* AppDelegate.swift */,
 				CDFA990427B79F9500495F59 /* SceneDelegate.swift */,
-				CDFA990827B79F9500495F59 /* Main.storyboard */,
 				CDFA990D27B79F9B00495F59 /* LaunchScreen.storyboard */,
-				CDFA991027B79F9B00495F59 /* Info.plist */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -146,6 +200,9 @@
 		CDFA991827B7BA3B00495F59 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CDFA99A127B7E84C00495F59 /* Struct */,
+				CDFA999927B7E6A300495F59 /* Data Source */,
+				CDFA999127B7C84400495F59 /* Navigation Bar */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -153,7 +210,10 @@
 		CDFA991927B7BA6300495F59 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CDFA990627B79F9500495F59 /* ViewController.swift */,
+				CDFA999A27B7E6B300495F59 /* Audio Player View Controller */,
+				CDFA999827B7E67C00495F59 /* Selected Playlist View Controller */,
+				CDFA999727B7E63900495F59 /* Add New Playlist View Controller */,
+				CDFA999027B7C7AF00495F59 /* Home Screen */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -192,6 +252,84 @@
 				CDFA997227B7C5DE00495F59 /* Filhaal-2-Mohabbat.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CDFA999027B7C7AF00495F59 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367E827BB7060001793F0 /* Main.storyboard */,
+				CDFA990627B79F9500495F59 /* MyPlaylistViewController.swift */,
+				CD8367CA27BB62D5001793F0 /* MyPlaylist collectionView */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		CDFA999127B7C84400495F59 /* Navigation Bar */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA999227B7C89300495F59 /* NavigationBar.swift */,
+			);
+			path = "Navigation Bar";
+			sourceTree = "<group>";
+		};
+		CDFA999727B7E63900495F59 /* Add New Playlist View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */,
+				CD8367D127BB6861001793F0 /* selected Song TableView */,
+				CDFA99A027B7E82100495F59 /* PopupViews */,
+			);
+			path = "Add New Playlist View Controller";
+			sourceTree = "<group>";
+		};
+		CDFA999827B7E67C00495F59 /* Selected Playlist View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */,
+				CD8367E527BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift */,
+			);
+			name = "Selected Playlist View Controller";
+			sourceTree = "<group>";
+		};
+		CDFA999927B7E6A300495F59 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA999C27B7E7DC00495F59 /* AlbumOfPlaylists.swift */,
+				CDFA999E27B7E81000495F59 /* AllSongList.swift */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		CDFA999A27B7E6B300495F59 /* Audio Player View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367E027BB6B4F001793F0 /* PlayerLogic.swift */,
+				CD8367E227BB6B64001793F0 /* AudioPlayerViewController.swift */,
+			);
+			path = "Audio Player View Controller";
+			sourceTree = "<group>";
+		};
+		CDFA99A027B7E82100495F59 /* PopupViews */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367DC27BB6947001793F0 /* PopupView.swift */,
+				CD8367DA27BB68F7001793F0 /* PopupImage.swift */,
+				CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */,
+				CD8367D427BB68B4001793F0 /* arrayOfImageCollectionView.swift */,
+				CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */,
+			);
+			name = PopupViews;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CDFA99A127B7E84C00495F59 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367EB27BBA3FA001793F0 /* ThemeColorStruct.swift */,
+				CDFA999527B7DFA700495F59 /* AlbumStruct.swift */,
+				CDFA99A227B7E88600495F59 /* SongInfo.swift */,
+			);
+			name = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +401,9 @@
 				CDFA998827B7C5DF00495F59 /* Soch Liya.mp3 in Resources */,
 				CDFA990F27B79F9B00495F59 /* LaunchScreen.storyboard in Resources */,
 				CDFA998027B7C5DF00495F59 /* Din Raat.mp3 in Resources */,
+				CD8367CE27BB6401001793F0 /* MyPlaylistCollectionCell.xib in Resources */,
 				CDFA997F27B7C5DF00495F59 /* Jind Meriye - Jersey.mp3 in Resources */,
+				CD8367D927BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib in Resources */,
 				CDFA997327B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 in Resources */,
 				CDFA998527B7C5DF00495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 in Resources */,
 				CDFA998B27B7C5DF00495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 in Resources */,
@@ -273,6 +413,7 @@
 				CDFA998C27B7C5DF00495F59 /* Chaldi Kudi.mp3 in Resources */,
 				CDFA998E27B7C5DF00495F59 /* Jane Wale Laut Kar Tu Aaya Kyon Nahi.mp3 in Resources */,
 				CDFA997727B7C5DE00495F59 /* Judai - Jannat 320Kbps.mp3 in Resources */,
+				CD8367E927BB7060001793F0 /* Main.storyboard in Resources */,
 				CDFA997427B7C5DE00495F59 /* Bachpan-Ka-Pyar.mp3 in Resources */,
 				CDFA997B27B7C5DF00495F59 /* Main Agar Saamne.mp3 in Resources */,
 				CDFA990C27B79F9B00495F59 /* Assets.xcassets in Resources */,
@@ -282,7 +423,6 @@
 				CDFA997C27B7C5DF00495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 in Resources */,
 				CDFA997A27B7C5DF00495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 in Resources */,
 				CDFA998327B7C5DF00495F59 /* Dil Galti Kar Baitha Hai.mp3 in Resources */,
-				CDFA990A27B79F9500495F59 /* Main.storyboard in Resources */,
 				CDFA997D27B7C5DF00495F59 /* Barns Courtney-Fire.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,23 +434,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFA990727B79F9500495F59 /* ViewController.swift in Sources */,
+				CDFA999D27B7E7DD00495F59 /* AlbumOfPlaylists.swift in Sources */,
+				CD8367D527BB68B5001793F0 /* arrayOfImageCollectionView.swift in Sources */,
+				CD8367E727BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift in Sources */,
+				CDFA990727B79F9500495F59 /* MyPlaylistViewController.swift in Sources */,
+				CD8367D727BB68CC001793F0 /* ArrayOfImagesCollectionViewCell.swift in Sources */,
+				CDFA999F27B7E81000495F59 /* AllSongList.swift in Sources */,
+				CDFA999627B7DFA700495F59 /* AlbumStruct.swift in Sources */,
+				CD8367E327BB6B64001793F0 /* AudioPlayerViewController.swift in Sources */,
+				CDFA99A327B7E88600495F59 /* SongInfo.swift in Sources */,
+				CD8367E127BB6B4F001793F0 /* PlayerLogic.swift in Sources */,
+				CD8367DD27BB6947001793F0 /* PopupView.swift in Sources */,
+				CD8367D027BB6826001793F0 /* AddNewPlaylistViewController.swift in Sources */,
+				CD8367EC27BBA3FA001793F0 /* ThemeColorStruct.swift in Sources */,
 				CDFA990327B79F9500495F59 /* AppDelegate.swift in Sources */,
 				CDFA990527B79F9500495F59 /* SceneDelegate.swift in Sources */,
+				CDFA999327B7C89300495F59 /* NavigationBar.swift in Sources */,
+				CD8367E627BB6B7F001793F0 /* SelectedPlaylistViewController.swift in Sources */,
+				CD8367DB27BB68F7001793F0 /* PopupImage.swift in Sources */,
+				CD8367DF27BB6963001793F0 /* SongListToAddPlaylistCell.swift in Sources */,
+				CD8367CC27BB63F1001793F0 /* MyPlaylistCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDFA990827B79F9500495F59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDFA990927B79F9500495F59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDFA990D27B79F9B00495F59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
