@@ -65,6 +65,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD8352E127BE84FD00E6E2E1 /* PlayerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLogic.swift; sourceTree = "<group>"; };
 		CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlaylistCollectionCell.swift; sourceTree = "<group>"; };
 		CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPlaylistCollectionCell.xib; sourceTree = "<group>"; };
 		CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPlaylistViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +136,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD8352E027BE84A800E6E2E1 /* JD_UTIL_2 */ = {
+			isa = PBXGroup;
+			children = (
+				CD8352E127BE84FD00E6E2E1 /* PlayerLogic.swift */,
+			);
+			name = JD_UTIL_2;
+			path = "/Users/micky/Desktop/Himanshu/Himanshu Git/IOSAudioPlayer/IOSAudioPlayer/IOSAudioPlayer/JD_UTIL_2";
+			sourceTree = "<absolute>";
+		};
 		CD8367CA27BB62D5001793F0 /* MyPlaylist collectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +183,7 @@
 		CDFA990127B79F9500495F59 /* IOSAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				CD8352E027BE84A800E6E2E1 /* JD_UTIL_2 */,
 				CDFA991727B7BA1A00495F59 /* Application */,
 				CDFA991627B7BA0700495F59 /* Resource */,
 				CDFA991827B7BA3B00495F59 /* Utilities */,
