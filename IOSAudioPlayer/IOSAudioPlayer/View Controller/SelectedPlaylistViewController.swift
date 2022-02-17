@@ -43,7 +43,7 @@ class SelectedPlayListViewController:UIViewController{
     func pushToMusicPlayer(){
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let destination = storyboard.instantiateViewController(withIdentifier: "AudioPlayerViewController") as! AudioPlayerViewController
-        destination.playerLogic.songlist = (selectedAlbum?.albumPlaylist)!
+        songlist = (selectedAlbum?.albumPlaylist)!
         destination.playerLogic.currentSongIndex = selectedIndex!
         navigationController?.present(destination, animated: true, completion: nil)
         

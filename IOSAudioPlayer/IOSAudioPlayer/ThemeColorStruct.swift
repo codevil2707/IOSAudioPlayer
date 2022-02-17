@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-let themeColor = ThemeColor(primary1Color: UIColor.black, secondary1Color: UIColor.darkGray, primary2: nil, secondary2: nil, highlightColor: UIColor.red, textColor1: UIColor.white, textColor2: UIColor.gray, blackColor: UIColor.black, WhiteColor: UIColor.white)
+let themeColor = ThemeColor(primary1Color: UIColor.black, secondary1Color: UIColor.darkGray, primary2: nil, secondary2: nil, highlightColor: UIColor.green, textColor1: UIColor.white, textColor2: UIColor.gray, blackColor: UIColor.black, WhiteColor: UIColor.white)
 struct ThemeColor{
      let primary1Color:UIColor?
     let secondary1Color:UIColor?

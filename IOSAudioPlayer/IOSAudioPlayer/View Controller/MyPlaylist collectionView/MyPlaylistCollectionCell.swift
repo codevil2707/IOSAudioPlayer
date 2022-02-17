@@ -6,12 +6,18 @@
 //
 
 import UIKit
+protocol DeletePlaylistDelegate{
+    func deletePlaylist(_ selectedindex:Int)
+}
 
 class MyPlaylistCollectionCell: UICollectionViewCell {
     
     @IBOutlet weak var NameLabel: UILabel!
     @IBOutlet weak var CoverImageView: UIImageView!
-
+    @IBOutlet weak var deleteButton: UIButton!
+    
+    var indexPathOfPlaylist:Int?
+    var delegate:DeletePlaylistDelegate?
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -22,11 +28,25 @@ class MyPlaylistCollectionCell: UICollectionViewCell {
     }
 //    override var isSelected: Bool
  
-    func configure(_ imageOfAlbum:UIImage,_ albumName:String){
-        CoverImageView.image = imageOfAlbum
-        NameLabel.text = albumName
+    func configure(_ playlists:AlbumStruct,_ indexPath:IndexPath){
+        CoverImageView.image = playlists.albumImage
+        NameLabel.text = playlists.albumName
+        if playlists.albumMode == .User{
+            deleteButton.isHidden = false
+            indexPathOfPlaylist = indexPath.row
+        }
+        else {
+            deleteButton.isHidden = true
+        }
+        
     }
   
+    @IBAction func deleteButtonDidPressed(_ sender: UIButton) {
+        if let selectedIndexPath = indexPathOfPlaylist{
+            self.delegate?.deletePlaylist(selectedIndexPath)
+        }
+    }
+    
   
 }
 

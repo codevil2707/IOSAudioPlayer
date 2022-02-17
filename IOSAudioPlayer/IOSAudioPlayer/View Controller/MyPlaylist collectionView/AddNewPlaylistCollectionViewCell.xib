@@ -22,6 +22,8 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="—Pngtree—plus icon_4526657" translatesAutoresizingMaskIntoConstraints="NO" id="dhy-Xx-ULZ">
                                 <rect key="frame" x="0.0" y="0.0" width="264" height="167"/>
+                                <color key="backgroundColor" red="0.104416199" green="0.26140052079999998" blue="0.28149360420000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" name="Highlight"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.34299999475479126" green="0.23074146621126351" blue="0.31092284817205884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -49,7 +51,7 @@
     <resources>
         <image name="—Pngtree—plus icon_4526657" width="666" height="666"/>
         <namedColor name="Highlight">
-            <color red="1" green="0.32199999690055847" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.30300000309944153" green="0.82099997997283936" blue="0.35100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

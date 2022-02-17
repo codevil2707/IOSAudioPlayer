@@ -53,24 +53,8 @@ class AudioPlayerViewController: UIViewController {
         playerLogic.didPause()
         volume = playerLogic.audioPlayer.volume
         print(volume)
-        }
-    
-    
-    func setNavBarOfGoMusic(){
-        let startingYPos = UIApplication.shared.statusBarFrame.size.height;
-        var navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: 50))
-        view.addSubview(navBar)
-
-        let navItem = UINavigationItem(title: "Go Music")
-        let leftItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(onClickedCancel))
-
-       navItem.leftBarButtonItem = leftItem
-        navBar.setItems([navItem], animated: true)
+        
     }
-    @objc func onClickedCancel(){
-        navigationController?.dismiss(animated: true)
-    }
-    
    
    
     //MARK: - METHODS TO PREPARE TO PLAY SONG FROM PLAYLIST

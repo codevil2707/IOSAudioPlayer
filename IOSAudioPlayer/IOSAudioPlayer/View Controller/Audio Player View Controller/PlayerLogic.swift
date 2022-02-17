@@ -11,28 +11,6 @@ var volume:Float = 0.5
 struct PlayerLogic{
     
     //MARK: - Properties
-    var songlist = [SongInfo(songName: "Kithe Chaliye Tu", songTitle: "Kithe-chaliye-tu", songArtist: "Jubin Nautiyal", songImage:"Kithe Chaliye Tu" , songExt: "mp3"),
-                    SongInfo(songName: "Filhaal-2-Mohabbat", songTitle:  "Filhaal-2-Mohabbat", songArtist: "B-praak", songImage:  "Filhaal-2-Mohabbat", songExt:"mp3"),
-                    SongInfo(songName: "Music", songTitle: "Music",songArtist:"Unknown", songImage: "Music", songExt: "wav"),
-                    SongInfo(songName: "Hawayein", songTitle: "Hawayein",songArtist: "Arijit Singh" ,songImage: "Hawayein", songExt: "mp3"),
-                    SongInfo(songName: "Barns Courtney-Fire", songTitle: "Barns Courtney-Fire",songArtist: "Barns Courtney", songImage: "Barns Courtney-Fire", songExt: "mp3"),
-                    SongInfo(songName: "Yaariyan", songTitle: "Yaariyan", songArtist: "Mohd Irfan",songImage: "Yaariyan", songExt: "mp3"),
-                  
-                    SongInfo(songName: "Aashiqui Aa Gayi", songTitle: "Aashiqui Aa Gayi", songArtist: "Radhe Shyam",songImage: "Aashiqui Aa Gayi", songExt: "mp3"),
-                    SongInfo(songName: "Baliye Re - Jersey", songTitle: "Baliye Re - Jersey", songArtist: "Stebin ben",songImage: "Baliye Re - Jersey", songExt: "mp3"),
-                    SongInfo(songName: "Brown Munde", songTitle: "Brown Munde", songArtist: "AP Dhillon",songImage: "Brown Munde", songExt: "mp3"),
-                    SongInfo(songName: "Dil Galti Kar Baitha Hai", songTitle: "Dil Galti Kar Baitha Hai", songArtist: "Neha Kakkar",songImage: "Dil Galti Kar Baitha Hai", songExt: "mp3"),
-                    SongInfo(songName: "Din Raat", songTitle: "Din Raat", songArtist: "Garry Sandhu",songImage: "Din Raat", songExt: "mp3"),
-                    SongInfo(songName: "Jane Wale Laut Kar Tu Aaya Kyon Nahi", songTitle: "Jane Wale Laut Kar Tu Aaya Kyon Nahi", songArtist: "B-Praak,Neha Kakkar",songImage: "Jane Wale Laut Kar Tu Aaya Kyon Nahi", songExt: "mp3"),
-                    SongInfo(songName: "jind Meriye - Jersey", songTitle: "jind Meriye - Jersey", songArtist: "Stebin Ben",songImage: "jind Meriye - Jersey", songExt: "mp3"),
-                    SongInfo(songName: "Main Agar Saamne", songTitle: "Main Agar Saamne", songArtist: "Abhijit Singh, Alka Yagini",songImage: "Main Agar Saamne", songExt: "mp3"),
-                    SongInfo(songName: "Mera Dil Bhi Kitna Pagal Hai", songTitle: "Mera Dil Bhi Kitna Pagal Hai", songArtist: "Abhijit Singh, Alka Yagini",songImage: "Mera Dil Bhi Kitna Pagal Hai", songExt: "mp3"),
-                    SongInfo(songName: "One Touch", songTitle: "One Touch", songArtist: "Garry Sandhu",songImage: "One Touch", songExt: "mp3"),
-                    SongInfo(songName: "Rabb Jane", songTitle: "Rabb Jane", songArtist: "Garry Sandhu",songImage: "Rabb Jane", songExt: "mp3"),
-                    SongInfo(songName: "Soch Liya", songTitle: "Soch Liya", songArtist: "Radhe Shyam",songImage: "Soch Liya", songExt: "mp3"),
-                   
-    ]
-    
   
  var audioPlayer:AVAudioPlayer!
  ///index of current Song
@@ -47,19 +25,8 @@ struct PlayerLogic{
  // MARK: - PLAYER LOGIC
 
  mutating func loadCurrentSong(){
-    
-     let tempURL = getURLofSongFromMainBundle()
-     let _ = loadPlayer(withNewURL: tempURL)
+     let _ = loadPlayer(withNewURL: songlist[currentSongIndex].songUrl)
  }
- ///fetch song url from main bundle and store into tempURL and return tempURL
- func getURLofSongFromMainBundle()->URL{
-     var tempURL:URL!
-     let currentSongName = songlist[currentSongIndex].songName
-     let currentSongExt = songlist[currentSongIndex].songExt
-     tempURL = Bundle.main.url(forResource: currentSongName, withExtension: currentSongExt)
-     return(tempURL)
- }
-                                 
  ///create object of AVAudioplayer and return did succed as bool
  mutating func loadPlayer(withNewURL:URL)->Bool{
      var didSucced:Bool = false
@@ -71,8 +38,6 @@ struct PlayerLogic{
  }
 
  mutating func getSongInSongHistory(){
-    
- //        let sInfo = SongInfo(songName: "Filhaal-2-Mohabbat", songTitle:  "Filhaal-2-Mohabbat", songArtist: "B-praak", songImage:  "Filhaal-2-Mohabbat", songExt:"mp3")
      recentPlayedSong.append(songlist[currentSongIndex])
      print(recentPlayedSong)
      
@@ -101,7 +66,7 @@ struct PlayerLogic{
 
 
  func updateSongTitleName()->String{
-     return songlist[currentSongIndex].songTitle
+     return songlist[currentSongIndex].songName
  }
 
  func updateSongArtistName()->String{
@@ -134,10 +99,7 @@ struct PlayerLogic{
      didStop()
      didPlay()
  }
- //    func playAtSpecificTime(_ time:Double){
- //        audioPlayer.play(atTime: time)
- //
- //    }
+
 
  //MARK: - NEXT/PRE SONG METHOD
 
@@ -189,28 +151,9 @@ struct PlayerLogic{
  }
 
  //MARK: - VOLUME CONTROL
- //   ///function for increase volume
- //    mutating func volumeUp() {
- //        if(currentVolumeLevel<1.0 ){
- //            let value = currentVolumeLevel + 0.05
- //            currentVolumeLevel = value.rounded(toPlaces: 2)
- //        }
- //        audioPlayer.volume = currentVolumeLevel
- //
- //    }
- //    ///function to decrease volume
- //    mutating func volumeDown() {
- //
- //        if (currentVolumeLevel>0.0){
- ////            currentVolumeLevel = currentVolumeLevel - 0.1
- //            let value = currentVolumeLevel - 0.05
- //            currentVolumeLevel = value.rounded(toPlaces: 2)
- //        }
- //            audioPlayer.volume = currentVolumeLevel
- //
- //        }
+
     mutating func setVolumeInSlider(){
-        audioPlayer.volume = Float(volume ?? 0.0)
+        audioPlayer.volume = Float(volume)
  }
  //
  //MARK: - Handy Function

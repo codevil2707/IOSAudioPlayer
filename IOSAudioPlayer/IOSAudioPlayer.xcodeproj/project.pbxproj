@@ -10,7 +10,6 @@
 		CD8367CC27BB63F1001793F0 /* MyPlaylistCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */; };
 		CD8367CE27BB6401001793F0 /* MyPlaylistCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */; };
 		CD8367D027BB6826001793F0 /* AddNewPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */; };
-		CD8367D527BB68B5001793F0 /* arrayOfImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367D427BB68B4001793F0 /* arrayOfImageCollectionView.swift */; };
 		CD8367D727BB68CC001793F0 /* ArrayOfImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */; };
 		CD8367D927BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */; };
 		CD8367DB27BB68F7001793F0 /* PopupImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367DA27BB68F7001793F0 /* PopupImage.swift */; };
@@ -69,7 +68,6 @@
 		CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlaylistCollectionCell.swift; sourceTree = "<group>"; };
 		CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPlaylistCollectionCell.xib; sourceTree = "<group>"; };
 		CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPlaylistViewController.swift; sourceTree = "<group>"; };
-		CD8367D427BB68B4001793F0 /* arrayOfImageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = arrayOfImageCollectionView.swift; sourceTree = "<group>"; };
 		CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayOfImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 		CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArrayOfImagesCollectionViewCell.xib; sourceTree = "<group>"; };
 		CD8367DA27BB68F7001793F0 /* PopupImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupImage.swift; sourceTree = "<group>"; };
@@ -206,7 +204,7 @@
 		CDFA991827B7BA3B00495F59 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				CDFA99A127B7E84C00495F59 /* Struct */,
+				CDFA99A127B7E84C00495F59 /* DataModels */,
 				CDFA999927B7E6A300495F59 /* Data Source */,
 				CDFA999127B7C84400495F59 /* Navigation Bar */,
 			);
@@ -321,21 +319,20 @@
 				CD8367DC27BB6947001793F0 /* PopupView.swift */,
 				CD8367DA27BB68F7001793F0 /* PopupImage.swift */,
 				CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */,
-				CD8367D427BB68B4001793F0 /* arrayOfImageCollectionView.swift */,
 				CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */,
 			);
 			name = PopupViews;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		CDFA99A127B7E84C00495F59 /* Struct */ = {
+		CDFA99A127B7E84C00495F59 /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
 				CD8367EB27BBA3FA001793F0 /* ThemeColorStruct.swift */,
 				CDFA999527B7DFA700495F59 /* AlbumStruct.swift */,
 				CDFA99A227B7E88600495F59 /* SongInfo.swift */,
 			);
-			name = Struct;
+			name = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,7 +440,6 @@
 			files = (
 				CD9FC29927BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift in Sources */,
 				CDFA999D27B7E7DD00495F59 /* AlbumOfPlaylists.swift in Sources */,
-				CD8367D527BB68B5001793F0 /* arrayOfImageCollectionView.swift in Sources */,
 				CD8367E727BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift in Sources */,
 				CDFA990727B79F9500495F59 /* MyPlaylistViewController.swift in Sources */,
 				CD8367D727BB68CC001793F0 /* ArrayOfImagesCollectionViewCell.swift in Sources */,

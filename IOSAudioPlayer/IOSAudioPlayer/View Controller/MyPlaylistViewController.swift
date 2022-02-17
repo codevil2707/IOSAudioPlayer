@@ -10,7 +10,6 @@ import UIKit
 // TODO: - PENDING
 class MyPlaylistViewController: UIViewController{
    
-    
 @IBOutlet weak var myPlaylistCollectionView: UICollectionView!
        
     override func viewDidLoad() {
@@ -21,12 +20,11 @@ class MyPlaylistViewController: UIViewController{
         configureCollectionView()
        
       
-//        AddNewPlaylistViewController.delegate = self
     }
     
     func configureCollectionView(){
         let numberOfColumns : CGFloat = 2
-        let numberOfRows : CGFloat = 2
+//        let numberOfRows : CGFloat = 2
         
         
         myPlaylistCollectionView.delegate = self
@@ -43,17 +41,15 @@ class MyPlaylistViewController: UIViewController{
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        myPlaylistCollectionView.reloadData()
-       
-    }
+   
     
 
     func setNavBarOfPlaylist(){
         let startingYPos = UIApplication.shared.statusBarFrame.size.height;
-        let navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: 50))
-        navBar.backgroundColor = UIColor.clear
-        navBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        let navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: view.frame.height*0.1))
+        navBar.tintColor = themeColor.highlightColor
+        navBar.barTintColor = themeColor.primary1Color
+        navBar.titleTextAttributes = [.foregroundColor: themeColor.textColor1 as Any]
         view.addSubview(navBar)
 
         let navItem = UINavigationItem(title: "My Playlist")
@@ -100,20 +96,21 @@ extension MyPlaylistViewController:UICollectionViewDelegate, UICollectionViewDat
            
     let storyboard = UIStoryboard(name: "Main", bundle:Bundle.main)
         let addNewPlaylistVC = storyboard.instantiateViewController(identifier: "AddNewPlaylistViewController") as! AddNewPlaylistViewController
+            addNewPlaylistVC.delegate = self
             present(addNewPlaylistVC, animated: true, completion: nil)
         }
         else{
-            
-
         pushToPlaylist(indexPath.row)
         print(indexPath.row)
         }
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        print("albumplaylisrcount:",albumPlaylistArray.count)
         return albumPlaylistArray.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         if indexPath.row==0{
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "emptyCell", for: indexPath) as! AddNewPlaylistCollectionViewCell
             return cell
@@ -121,10 +118,9 @@ extension MyPlaylistViewController:UICollectionViewDelegate, UICollectionViewDat
         else{
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! MyPlaylistCollectionCell
        
-       if  let imageOfAlbum = albumPlaylistArray[indexPath.row].albumImage,
-           let nameOfAlbum = albumPlaylistArray[indexPath.row].albumName {
-        cell.configure(imageOfAlbum, nameOfAlbum)
-       }
+       
+            cell.configure(albumPlaylistArray[indexPath.row],indexPath)
+            cell.delegate = self
         return cell
     }
     }
@@ -144,6 +140,13 @@ extension MyPlaylistViewController:UICollectionViewDelegate, UICollectionViewDat
 extension MyPlaylistViewController: UpdateNewPlaylist{
     func addAlbum(_ newPlaylist: AlbumStruct) {
         albumPlaylistArray.append(newPlaylist)
+        myPlaylistCollectionView.reloadData()
     }
 
+}
+extension MyPlaylistViewController:DeletePlaylistDelegate{
+    func deletePlaylist(_ selectedindex: Int) {
+        albumPlaylistArray.remove(at: selectedindex)
+        myPlaylistCollectionView.reloadData()
+    }
 }

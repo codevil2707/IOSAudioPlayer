@@ -12,4 +12,10 @@ struct AlbumStruct{
     var albumName:String?
     var albumImage:UIImage?
     var albumPlaylist:[SongInfo]?
+    var albumMode:AlbumMode
+}
+
+enum AlbumMode{
+    case Default
+    case User
 }

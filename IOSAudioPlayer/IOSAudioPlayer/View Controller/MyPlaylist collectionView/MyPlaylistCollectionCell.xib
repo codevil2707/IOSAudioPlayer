@@ -33,12 +33,15 @@
                             <constraint firstItem="a2g-TG-OIN" firstAttribute="height" secondItem="u8e-a9-wpH" secondAttribute="height" multiplier="0.85" id="qqa-gc-DlU"/>
                         </constraints>
                     </stackView>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G31-iL-MhJ">
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G31-iL-MhJ">
                         <rect key="frame" x="123" y="0.0" width="31" height="31"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="plain">
                             <backgroundConfiguration key="background" image="—Pngtree—delete vector icon_4236653"/>
                         </buttonConfiguration>
+                        <connections>
+                            <action selector="deleteButtonDidPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="YE4-ay-Kqt"/>
+                        </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34R-KL-KLS">
                         <rect key="frame" x="0.0" y="83.5" width="44.5" height="45"/>
@@ -69,6 +72,7 @@
             <connections>
                 <outlet property="CoverImageView" destination="a2g-TG-OIN" id="GNG-31-eh4"/>
                 <outlet property="NameLabel" destination="fgx-mh-moH" id="LC8-V8-5WD"/>
+                <outlet property="deleteButton" destination="G31-iL-MhJ" id="1Hv-OD-0Od"/>
             </connections>
             <point key="canvasLocation" x="-468.11594202898556" y="-65.959821428571431"/>
         </collectionViewCell>

@@ -9,7 +9,7 @@ import UIKit
 @IBDesignable
 final class PopupView: UIView{
     //MARK: - set frame to initial view
-    let popupView = UIView(frame: CGRect.zero)
+       let popupView = UIView(frame: CGRect.zero)
        let popupTitle = UILabel(frame: CGRect.zero)
        let popupText = UITextField(frame: CGRect.zero)
        let popupButton = UIButton(frame: CGRect.zero)
@@ -23,10 +23,12 @@ final class PopupView: UIView{
            backgroundColor = UIColor.black.withAlphaComponent(0.3)
            
            // Popup Background
+           popupView.frame = self.frame
            popupView.layer.borderWidth = BorderWidth
            popupView.layer.borderColor = UIColor.white.cgColor
            
            // Popup Title
+          
            popupTitle.text = "Playlist's Name"
            popupTitle.textColor = UIColor.red
            popupTitle.backgroundColor = UIColor.white
