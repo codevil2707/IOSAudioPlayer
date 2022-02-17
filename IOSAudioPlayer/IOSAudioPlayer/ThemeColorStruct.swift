@@ -18,4 +18,9 @@ struct ThemeColor{
     let textColor2:UIColor?
     let blackColor:UIColor?
     let WhiteColor:UIColor?
+    
+    
+    
+    //lll
+    
 }
