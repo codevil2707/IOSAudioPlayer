@@ -135,16 +135,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD8352E227BE85ED00E6E2E1 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				CDFA990B27B79F9B00495F59 /* Assets.xcassets */,
-				CDFA995527B7C5DE00495F59 /* Sounds */,
-			);
-			name = Resource;
-			path = IOSAudioPlayer;
-			sourceTree = SOURCE_ROOT;
-		};
 		CD8367CA27BB62D5001793F0 /* MyPlaylist collectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +152,15 @@
 				CD8367DE27BB6963001793F0 /* SongListToAddPlaylistCell.swift */,
 			);
 			name = "selected Song TableView";
+			sourceTree = "<group>";
+		};
+		CDA8D6C427BF54F000821AE3 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA990B27B79F9B00495F59 /* Assets.xcassets */,
+				CDFA995527B7C5DE00495F59 /* Sounds */,
+			);
+			path = Res;
 			sourceTree = "<group>";
 		};
 		CDFA98F627B79F9400495F59 = {
@@ -183,7 +182,7 @@
 		CDFA990127B79F9500495F59 /* IOSAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				CD8352E227BE85ED00E6E2E1 /* Resource */,
+				CDA8D6C427BF54F000821AE3 /* Res */,
 				CDFA991727B7BA1A00495F59 /* Application */,
 				CDFA991827B7BA3B00495F59 /* Utilities */,
 				CDFA991927B7BA6300495F59 /* View Controller */,
