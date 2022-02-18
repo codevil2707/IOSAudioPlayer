@@ -157,14 +157,14 @@
 			path = Res;
 			sourceTree = "<group>";
 		};
-		CDA8D6C527BF577C00821AE3 /* Util */ = {
+		CDA8D6C527BF577C00821AE3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
 				CDA8D6C827BF57AD00821AE3 /* DataModels */,
 				CDA8D6CC27BF57AE00821AE3 /* Data Source */,
 				CDA8D6C627BF57AD00821AE3 /* Navigation Bar */,
 			);
-			path = Util;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		CDA8D6C627BF57AD00821AE3 /* Navigation Bar */ = {
@@ -213,7 +213,7 @@
 		CDFA990127B79F9500495F59 /* IOSAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				CDA8D6C527BF577C00821AE3 /* Util */,
+				CDA8D6C527BF577C00821AE3 /* Utility */,
 				CDA8D6C427BF54F000821AE3 /* Res */,
 				CDFA991727B7BA1A00495F59 /* Application */,
 				CDFA991927B7BA6300495F59 /* View Controller */,
