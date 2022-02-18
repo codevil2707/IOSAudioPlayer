@@ -148,13 +148,13 @@
 			name = "selected Song TableView";
 			sourceTree = "<group>";
 		};
-		CDA8D6C427BF54F000821AE3 /* Res */ = {
+		CDA8D6C427BF54F000821AE3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				CDFA990B27B79F9B00495F59 /* Assets.xcassets */,
 				CDFA995527B7C5DE00495F59 /* Sounds */,
 			);
-			path = Res;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		CDA8D6C527BF577C00821AE3 /* Utility */ = {
@@ -214,7 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				CDA8D6C527BF577C00821AE3 /* Utility */,
-				CDA8D6C427BF54F000821AE3 /* Res */,
+				CDA8D6C427BF54F000821AE3 /* Resource */,
 				CDFA991727B7BA1A00495F59 /* Application */,
 				CDFA991927B7BA6300495F59 /* View Controller */,
 				CDFA991027B79F9B00495F59 /* Info.plist */,
