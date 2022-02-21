@@ -45,6 +45,7 @@ class AudioPlayerViewController: UIViewController {
        playPauseClicked()
         updateUI()
         playerLogic.audioPlayer.volume = volume
+        setNavBarOfPlaylist()
        
     }
     
@@ -70,16 +71,19 @@ class AudioPlayerViewController: UIViewController {
     func setNavBarOfPlaylist(){
         let startingYPos = UIApplication.shared.statusBarFrame.size.height;
         let navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: 50))
+        navBar.tintColor = themeColor.highlightColor
+        navBar.barTintColor = themeColor.primary1Color
+        navBar.titleTextAttributes = [.foregroundColor: themeColor.textColor1 as Any]
         view.addSubview(navBar)
         
         let navItem = UINavigationItem(title: "Go Music")
-        let leftItem = UIBarButtonItem(barButtonSystemItem: .cancel , target: self, action: nil)
+        let leftItem = UIBarButtonItem(barButtonSystemItem: .cancel , target: self , action: #selector(backToPlaylist))
         
        navItem.leftBarButtonItem = leftItem
         navBar.setItems([navItem], animated: false)
     }
-    func backToPlaylist(){
-        navigationController?.dismiss(animated: true, completion: nil)
+    @objc func backToPlaylist(){
+        navigationController?.popViewController(animated: true)
     }
     //MARK: - UPDATE UI
     ///updating UI of our app at every second
@@ -128,7 +132,7 @@ class AudioPlayerViewController: UIViewController {
     ///function to update remaining time of song
     func updateRemainingTime(){
        let time = playerLogic.getRemainingTime()
-        remainingTimeLabel.text =  playerLogic.convertTimeFormat(time)
+        remainingTimeLabel.text =  convertTimeFormat(time)
         
     }
 
@@ -144,7 +148,7 @@ class AudioPlayerViewController: UIViewController {
     
     ///set current time & update remaining time and progress slider
     @objc func getCurrentTime(){
-        currentTimeLabel.text = playerLogic.convertTimeFormat(playerLogic.getCurrentTimeOfSong())
+        currentTimeLabel.text = convertTimeFormat(playerLogic.getCurrentTimeOfSong())
         updateRemainingTime()
         updateProgressSlider()
       

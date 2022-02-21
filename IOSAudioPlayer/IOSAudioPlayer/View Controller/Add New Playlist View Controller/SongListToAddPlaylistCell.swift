@@ -24,6 +24,7 @@ class SongListToAddPlaylistCell:UITableViewCell{
            super.setSelected(selected, animated: animated)
            if selected{ checkmarkImageView.layer.opacity = 1
                songNameLabel.textColor = themeColor.highlightColor
+               self.backgroundColor = themeColor.primary1Color
            }
            else{ checkmarkImageView.layer.opacity = 0
                songNameLabel.textColor = themeColor.textColor1

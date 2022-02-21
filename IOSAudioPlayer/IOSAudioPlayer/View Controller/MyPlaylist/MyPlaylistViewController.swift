@@ -18,7 +18,7 @@ class MyPlaylistViewController: UIViewController{
         setCollectionViewCell()
         self.view.backgroundColor = themeColor.primary1Color
         configureCollectionView()
-       
+        self.view.frame.origin
       
     }
     
@@ -30,9 +30,9 @@ class MyPlaylistViewController: UIViewController{
         myPlaylistCollectionView.delegate = self
         myPlaylistCollectionView.dataSource = self
        
-        let customCellWidth = (self.myPlaylistCollectionView.frame.size.width*0.9)/numberOfColumns
+        let customCellWidth = (self.myPlaylistCollectionView.frame.size.width*0.85)/numberOfColumns
         let cellSize = CGSize(width: customCellWidth, height: customCellWidth)
-        let spacingOfCell = customCellWidth*0.05
+        let spacingOfCell = customCellWidth*0.09
         let layout  = UICollectionViewFlowLayout()
         
         layout.sectionInset = UIEdgeInsets(top: spacingOfCell, left: spacingOfCell, bottom: spacingOfCell, right: spacingOfCell)
@@ -54,9 +54,6 @@ class MyPlaylistViewController: UIViewController{
 
         let navItem = UINavigationItem(title: "My Playlist")
         navItem.titleView?.backgroundColor = UIColor.clear
-//        let leftItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addPlaylist))
-
-//       navItem.leftBarButtonItem = leftItem
         navBar.setItems([navItem], animated: false)
     }
 
@@ -90,14 +87,24 @@ class MyPlaylistViewController: UIViewController{
 }
 
 
+
+
 extension MyPlaylistViewController:UICollectionViewDelegate, UICollectionViewDataSource{
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row == 0{
            
-    let storyboard = UIStoryboard(name: "Main", bundle:Bundle.main)
-        let addNewPlaylistVC = storyboard.instantiateViewController(identifier: "AddNewPlaylistViewController") as! AddNewPlaylistViewController
-            addNewPlaylistVC.delegate = self
-            present(addNewPlaylistVC, animated: true, completion: nil)
+            let storyboard = UIStoryboard(name: "Main", bundle:Bundle.main)
+            if #available(iOS 13.0, *) {
+                let addNewPlaylistVC = storyboard.instantiateViewController(identifier: "AddNewPlaylistViewController") as! AddNewPlaylistViewController
+                addNewPlaylistVC.delegate = self
+                present(addNewPlaylistVC, animated: true, completion: nil)
+            } else {
+                let addNewPlaylistVC = storyboard.instantiateViewController(withIdentifier: "AddNewPlaylistViewController") as! AddNewPlaylistViewController
+                addNewPlaylistVC.delegate = self
+                navigationController?.pushViewController(addNewPlaylistVC, animated: true)
+            }
+           
         }
         else{
         pushToPlaylist(indexPath.row)
@@ -140,6 +147,7 @@ extension MyPlaylistViewController:UICollectionViewDelegate, UICollectionViewDat
 extension MyPlaylistViewController: UpdateNewPlaylist{
     func addAlbum(_ newPlaylist: AlbumStruct) {
         albumPlaylistArray.append(newPlaylist)
+        print(newPlaylist)
         myPlaylistCollectionView.reloadData()
     }
 

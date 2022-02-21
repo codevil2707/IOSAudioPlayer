@@ -15,7 +15,7 @@ struct AlbumStruct{
     var albumMode:AlbumMode
 }
 
-enum AlbumMode{
-    case Default
-    case User
+enum AlbumMode : String{
+    case Default = "DEFAULT"
+    case User = "USER"
 }

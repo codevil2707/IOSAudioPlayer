@@ -18,7 +18,7 @@ struct PlayerLogic{
  ///a bool to know the status of song playing
  var isSongPlaying = false
  ///store current value of song
-   
+ var songlist = allSonglist
  var recentPlayedSong = [SongInfo]()
 
 
@@ -156,42 +156,6 @@ struct PlayerLogic{
         audioPlayer.volume = Float(volume)
  }
  //
- //MARK: - Handy Function
-    ///convert volume float to string
- func convertFloatToPercentageAsString(value:Float)->String{
-    var percentage: Float
-    percentage = (value * Float(100.0).rounded(toPlaces: 2))
-    print("voume: ", Int(percentage))
-    return "\(Int(percentage))"
- }
-
-
-
- func convertTimeFormat(_ time:Float)->String{
-     let durationInSec = Int(time)
-     var hour:Int = 00
-     var  min:Int = 00
-     var sec:Int = 00
-     // if hour
-     if(durationInSec>3600){
-         hour = durationInSec/3600
-         min = (durationInSec%3600)/60
-         sec = (durationInSec%3600)%60
-        
-         return "\(hour) : \(min) : \(sec)"
-     } // if has minutes
-     else if(durationInSec>60){
-         min = durationInSec/60
-         sec = durationInSec%60
-         return "\(min) : \(sec)"
-     }
-     else{
-         sec = durationInSec
-        
-         return "\(min) : \(sec)"
-     }
-     
- }
 
 
 
@@ -206,6 +170,42 @@ struct PlayerLogic{
  }
  }
 
+//MARK: - Handy Function
+   ///convert volume float to string
+func convertFloatToPercentageAsString(value:Float)->String{
+   var percentage: Float
+   percentage = (value * Float(100.0).rounded(toPlaces: 2))
+   print("voume: ", Int(percentage))
+   return "\(Int(percentage))"
+}
+
+
+
+func convertTimeFormat(_ time:Float)->String{
+    let durationInSec = Int(time)
+    var hour:Int = 00
+    var  min:Int = 00
+    var sec:Int = 00
+    // if hour
+    if(durationInSec>3600){
+        hour = durationInSec/3600
+        min = (durationInSec%3600)/60
+        sec = (durationInSec%3600)%60
+       
+        return "\(hour) : \(min) : \(sec)"
+    } // if has minutes
+    else if(durationInSec>60){
+        min = durationInSec/60
+        sec = durationInSec%60
+        return "\(min) : \(sec)"
+    }
+    else{
+        sec = durationInSec
+       
+        return "\(min) : \(sec)"
+    }
     
+}
+
 
   

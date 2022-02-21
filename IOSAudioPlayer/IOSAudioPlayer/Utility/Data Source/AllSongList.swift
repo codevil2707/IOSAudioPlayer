@@ -7,7 +7,7 @@
 
 import Foundation
 
-var songlist = [SongInfo(songName: "Kithe Chaliye Tu", songArtist: "Jubin Nautiyal", songImage:"Kithe Chaliye Tu" , songExt: "mp3"),
+var allSonglist = [SongInfo(songName: "Kithe Chaliye Tu", songArtist: "Jubin Nautiyal", songImage:"Kithe Chaliye Tu" , songExt: "mp3"),
                 SongInfo(songName: "Filhaal-2-Mohabbat", songArtist: "B-praak", songImage:  "Filhaal-2-Mohabbat", songExt:"mp3"),
                 SongInfo(songName: "Music",songArtist:"Unknown", songImage: "Music", songExt: "wav"),
                 SongInfo(songName: "Hawayein",songArtist: "Arijit Singh" ,songImage: "Hawayein", songExt: "mp3"),

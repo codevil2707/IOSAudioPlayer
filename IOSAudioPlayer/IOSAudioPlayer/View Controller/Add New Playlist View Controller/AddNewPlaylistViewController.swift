@@ -13,6 +13,9 @@ protocol UpdateNewPlaylist{
     func addAlbum(_ newPlaylist:AlbumStruct)
 }
 
+
+
+
 //MARK: - View controller
 
 class AddNewPlaylistViewController:UIViewController{
@@ -23,9 +26,12 @@ class AddNewPlaylistViewController:UIViewController{
      var selectedSong = [SongInfo]()
      var newAlbumName:String?
     var newAlbumImage:UIImage?
-//    let arrayOfImage = [UIImage(named: "Music"),UIImage(named: "Bollywood"),UIImage(named: "Default"),UIImage(named: "Pop"),UIImage(named: "Romantic"),UIImage(named: "Sad-Romantic"),UIImage(named: "Sufi")]
-//   var ishiddenPopupViewForImage = false
-//    var popupImage:PopupImage?
+
+    
+    
+    
+    
+    
     //MARK: - lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,18 +45,28 @@ class AddNewPlaylistViewController:UIViewController{
     }
 
     
+    
+    
+    
+    
+    
+    
+    
     //MARK: - setup navigation bar button Action
     
    @objc func onDone(){
        let addPlaylist = AlbumStruct(albumName: "New Playlist", albumImage: UIImage(named: "Music"), albumPlaylist: selectedSong, albumMode: .User)
        self.delegate?.addAlbum(addPlaylist)
-       //reloadInputViews()
+    
        
-        dismiss(animated: true)
+       navigationController?.popViewController(animated: true)
        
     }
     
     
+    @objc func onClickedCancel(){
+        navigationController?.popViewController(animated: true)
+    }
     
   
  
@@ -59,8 +75,8 @@ class AddNewPlaylistViewController:UIViewController{
   
 //MARK: - setup Navigation Bar
     func setNavBarOfPlaylist(){
-      
-        let navBar = UINavigationBar(frame: CGRect(x: 0, y:0, width: view.frame.width, height: self.view.frame.width*0.1))
+        let startingYPos = UIApplication.shared.statusBarFrame.size.height;
+        let navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: self.view.frame.width*0.1))
         navBar.tintColor = themeColor.highlightColor
         navBar.barTintColor = themeColor.primary1Color
         navBar.titleTextAttributes = [.foregroundColor: themeColor.textColor1 as Any]
@@ -77,10 +93,7 @@ class AddNewPlaylistViewController:UIViewController{
         navBar.setItems([navItem], animated: false)
     }
    
-    @objc func onClickedCancel(){
-        dismiss(animated: true)
-    }
-    
+   
 }
 
 //MARK: - Delegate of song list table view
@@ -111,14 +124,14 @@ extension AddNewPlaylistViewController: UITableViewDelegate, UITableViewDataSour
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return songlist.count
+        return allSonglist.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! SongListToAddPlaylistCell
-        arrayOfSong.append(songlist[indexPath.row])
+        arrayOfSong.append(allSonglist[indexPath.row])
       print(arrayOfSong)
-        cell.songNameLabel.text = songlist[indexPath.row].songName
+        cell.songNameLabel.text = allSonglist[indexPath.row].songName
         return cell
     }
     

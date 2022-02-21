@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="204" id="KGk-i7-Jjw" customClass="LastCellOfTableViewCell" customModule="IOSAudioPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="204"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="204"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="893-Ks-SnL">
+                        <rect key="frame" x="0.0" y="0.0" width="381" height="204"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aw8-i9-Fbm">
+                                <rect key="frame" x="91.5" y="12" width="289.5" height="180"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="75V-y7-uFO">
+                                        <rect key="frame" x="0.0" y="0.0" width="289.5" height="90"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" name="Highlight"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" name="Text Color2"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number Of Songs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="K2h-Cj-rOi">
+                                        <rect key="frame" x="0.0" y="90" width="289.5" height="90"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="Text Color2"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="Primary color1"/>
+                        <constraints>
+                            <constraint firstItem="aw8-i9-Fbm" firstAttribute="width" secondItem="893-Ks-SnL" secondAttribute="width" multiplier="0.76" id="2RT-em-1pg"/>
+                            <constraint firstItem="aw8-i9-Fbm" firstAttribute="height" secondItem="893-Ks-SnL" secondAttribute="height" multiplier="0.88" id="gWn-BM-F36"/>
+                            <constraint firstItem="aw8-i9-Fbm" firstAttribute="trailing" secondItem="893-Ks-SnL" secondAttribute="trailing" id="hfl-hq-trb"/>
+                            <constraint firstItem="aw8-i9-Fbm" firstAttribute="centerY" secondItem="893-Ks-SnL" secondAttribute="centerY" id="pJk-F4-q8U"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="Black color"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="893-Ks-SnL" secondAttribute="bottom" id="U5B-x3-Bh0"/>
+                    <constraint firstItem="893-Ks-SnL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fVx-EM-FB4"/>
+                    <constraint firstItem="893-Ks-SnL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lYX-br-sSY"/>
+                    <constraint firstAttribute="trailing" secondItem="893-Ks-SnL" secondAttribute="trailing" id="q3p-cH-Bow"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateOfCreationLabel" destination="75V-y7-uFO" id="2xv-MG-0w2"/>
+                <outlet property="totalNumberOfSongLabel" destination="K2h-Cj-rOi" id="AwM-L5-RfO"/>
+            </connections>
+            <point key="canvasLocation" x="181.8840579710145" y="136.60714285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Black color">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Highlight">
+            <color red="0.30300000309944153" green="0.82099997997283936" blue="0.35100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary color1">
+            <color red="0.013000000268220901" green="0.0040000001899898052" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color2">
+            <color red="0.54699999094009399" green="0.54699999094009399" blue="0.54699999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

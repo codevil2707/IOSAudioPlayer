@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="12" rowHeight="74" id="KGk-i7-Jjw" customClass="SelectedPlaylistTableViewCell" customModule="IOSAudioPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Yg-MW-twd">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="74"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VeG-LT-veE">
+                                <rect key="frame" x="16.5" y="0.0" width="375" height="74"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Filhaal-2-Mohabbat" translatesAutoresizingMaskIntoConstraints="NO" id="oqV-yg-UfE">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="74"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TjM-Yh-Ibq">
+                                        <rect key="frame" x="83" y="0.0" width="292" height="74"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="oVM-th-yo9">
+                                                <rect key="frame" x="0.0" y="11" width="292" height="52"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cs9-zf-7Lc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="292" height="29"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" name="Highlight"/>
+                                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
+                                                        <color key="textColor" name="Text Color1"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BgM-f2-3xU">
+                                                        <rect key="frame" x="0.0" y="29" width="292" height="23"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                        <color key="textColor" name="Secondary Color1"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="Cs9-zf-7Lc" firstAttribute="height" secondItem="oVM-th-yo9" secondAttribute="height" multiplier="0.56" id="U1L-ze-d1t"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="oVM-th-yo9" firstAttribute="centerY" secondItem="TjM-Yh-Ibq" secondAttribute="centerY" id="1Xu-qt-bUW"/>
+                                            <constraint firstItem="oVM-th-yo9" firstAttribute="width" secondItem="TjM-Yh-Ibq" secondAttribute="width" id="HDe-97-qP6"/>
+                                            <constraint firstItem="oVM-th-yo9" firstAttribute="height" secondItem="TjM-Yh-Ibq" secondAttribute="height" multiplier="0.7" id="SYq-QU-gga"/>
+                                            <constraint firstItem="oVM-th-yo9" firstAttribute="centerX" secondItem="TjM-Yh-Ibq" secondAttribute="centerX" id="aAR-bw-QJi"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="oqV-yg-UfE" firstAttribute="width" secondItem="VeG-LT-veE" secondAttribute="width" multiplier="0.2" id="DTL-g0-1Ta"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="job-su-A9J">
+                                <rect key="frame" x="94" y="73.5" width="314" height="0.5"/>
+                                <color key="backgroundColor" name="Secondary Color1"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="Primary color1"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="job-su-A9J" secondAttribute="trailing" id="0zA-cN-pLM"/>
+                            <constraint firstAttribute="bottom" secondItem="job-su-A9J" secondAttribute="bottom" id="2Kg-bf-n62"/>
+                            <constraint firstItem="VeG-LT-veE" firstAttribute="height" secondItem="4Yg-MW-twd" secondAttribute="height" id="LvL-Lg-rYW"/>
+                            <constraint firstItem="VeG-LT-veE" firstAttribute="width" secondItem="4Yg-MW-twd" secondAttribute="width" multiplier="0.92" id="Meq-rQ-EnA"/>
+                            <constraint firstItem="VeG-LT-veE" firstAttribute="centerX" secondItem="4Yg-MW-twd" secondAttribute="centerX" id="Oe4-q0-a1m"/>
+                            <constraint firstItem="VeG-LT-veE" firstAttribute="centerY" secondItem="4Yg-MW-twd" secondAttribute="centerY" id="YWG-nC-IOb"/>
+                            <constraint firstItem="job-su-A9J" firstAttribute="width" secondItem="4Yg-MW-twd" secondAttribute="width" multiplier="0.77" id="yMU-RI-8zq"/>
+                            <constraint firstItem="job-su-A9J" firstAttribute="height" secondItem="4Yg-MW-twd" secondAttribute="height" multiplier="0.01" id="yhm-gC-dpb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="4Yg-MW-twd" secondAttribute="bottom" id="Ifc-vk-91r"/>
+                    <constraint firstAttribute="trailing" secondItem="4Yg-MW-twd" secondAttribute="trailing" id="hMX-zE-gus"/>
+                    <constraint firstItem="4Yg-MW-twd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="j1y-Gc-T1d"/>
+                    <constraint firstItem="4Yg-MW-twd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="jau-7k-kcb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="artistNameLabel" destination="BgM-f2-3xU" id="Agz-YP-0el"/>
+                <outlet property="backgroundViewLayer" destination="4Yg-MW-twd" id="bH3-q8-NCS"/>
+                <outlet property="songImageView" destination="oqV-yg-UfE" id="zMe-nh-gqi"/>
+                <outlet property="songNameLabel" destination="Cs9-zf-7Lc" id="qce-Fj-Wfy"/>
+            </connections>
+            <point key="canvasLocation" x="200.00000000000003" y="91.741071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Filhaal-2-Mohabbat" width="533" height="300"/>
+        <namedColor name="Highlight">
+            <color red="0.30300000309944153" green="0.82099997997283936" blue="0.35100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary color1">
+            <color red="0.013000000268220901" green="0.0040000001899898052" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary Color1">
+            <color red="0.34299999475479126" green="0.34299999475479126" blue="0.34299999475479126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

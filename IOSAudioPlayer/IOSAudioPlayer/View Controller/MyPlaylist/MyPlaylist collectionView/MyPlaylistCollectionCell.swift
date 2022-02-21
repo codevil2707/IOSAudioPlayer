@@ -15,6 +15,7 @@ class MyPlaylistCollectionCell: UICollectionViewCell {
     @IBOutlet weak var NameLabel: UILabel!
     @IBOutlet weak var CoverImageView: UIImageView!
     @IBOutlet weak var deleteButton: UIButton!
+    @IBOutlet weak var playButton:UIButton!
     
     var indexPathOfPlaylist:Int?
     var delegate:DeletePlaylistDelegate?
@@ -23,6 +24,8 @@ class MyPlaylistCollectionCell: UICollectionViewCell {
         // Initialization code
         self.layer.cornerRadius = 5
         self.layer.masksToBounds = true
+//        playButton.layer.cornerRadius = 100
+//        playButton.layer.masksToBounds = true
 //        playlistAlbumCoverImageView.translatesAutoresizingMaskIntoConstraints = true
 //        playlistAlbumCoverNameLabel.translatesAutoresizingMaskIntoConstraints = true
     }

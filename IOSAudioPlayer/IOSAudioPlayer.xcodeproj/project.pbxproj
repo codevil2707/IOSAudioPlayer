@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0DC23A27BFC8F80001D789 /* LastCellOfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0DC23827BFC8F80001D789 /* LastCellOfTableViewCell.swift */; };
+		CD0DC23B27BFC8F80001D789 /* LastCellOfTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD0DC23927BFC8F80001D789 /* LastCellOfTableViewCell.xib */; };
+		CD74880327C0BFED0065065B /* AddNewPlaylistViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */; };
+		CD74880727C1FF610065065B /* FirstCellOfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD74880527C1FF610065065B /* FirstCellOfTableViewCell.swift */; };
+		CD74880827C1FF610065065B /* FirstCellOfTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD74880627C1FF610065065B /* FirstCellOfTableViewCell.xib */; };
 		CD8367CC27BB63F1001793F0 /* MyPlaylistCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */; };
 		CD8367CE27BB6401001793F0 /* MyPlaylistCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */; };
 		CD8367D027BB6826001793F0 /* AddNewPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */; };
@@ -18,10 +23,23 @@
 		CD8367E127BB6B4F001793F0 /* PlayerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E027BB6B4F001793F0 /* PlayerLogic.swift */; };
 		CD8367E327BB6B64001793F0 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E227BB6B64001793F0 /* AudioPlayerViewController.swift */; };
 		CD8367E627BB6B7F001793F0 /* SelectedPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */; };
-		CD8367E727BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E527BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift */; };
 		CD8367E927BB7060001793F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8367E827BB7060001793F0 /* Main.storyboard */; };
 		CD9FC29927BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FC29727BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift */; };
 		CD9FC29A27BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9FC29827BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib */; };
+		CDA8D6CF27BF5B0600821AE3 /* ThemeColorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6C927BF57AD00821AE3 /* ThemeColorStruct.swift */; };
+		CDA8D6D027BF5B0600821AE3 /* AlbumStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6CA27BF57AD00821AE3 /* AlbumStruct.swift */; };
+		CDA8D6D127BF5B0600821AE3 /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6CB27BF57AE00821AE3 /* SongInfo.swift */; };
+		CDA8D6D227BF5B0600821AE3 /* AlbumOfPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6CE27BF57AE00821AE3 /* AlbumOfPlaylists.swift */; };
+		CDA8D6D327BF5B0600821AE3 /* AllSongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6CD27BF57AE00821AE3 /* AllSongList.swift */; };
+		CDA8D6D427BF5B0600821AE3 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6C727BF57AD00821AE3 /* NavigationBar.swift */; };
+		CDA8D6D727BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6D527BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift */; };
+		CDA8D6DA27BF67EF00821AE3 /* SelectedPlaylistTableViewCell1.swift in Resources */ = {isa = PBXBuildFile; fileRef = CDA8D6D527BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift */; };
+		CDA8D6DB27BF682800821AE3 /* SelectedPlaylistViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */; };
+		CDA8D6DD27BF692000821AE3 /* MyPlaylistViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = CDFA990627B79F9500495F59 /* MyPlaylistViewController.swift */; };
+		CDA8D6DE27BF692000821AE3 /* MyPlaylistCollectionCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */; };
+		CDA8D6DF27BF692000821AE3 /* AddNewPlaylistCollectionViewCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = CD9FC29727BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift */; };
+		CDA8D6E027BF692000821AE3 /* SongListToAddPlaylistCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = CD8367DE27BB6963001793F0 /* SongListToAddPlaylistCell.swift */; };
+		CDA8D6E127BF86CB00821AE3 /* SelectedPlaylistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA8D6D627BF669F00821AE3 /* SelectedPlaylistTableViewCell.xib */; };
 		CDFA990327B79F9500495F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990227B79F9500495F59 /* AppDelegate.swift */; };
 		CDFA990527B79F9500495F59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990427B79F9500495F59 /* SceneDelegate.swift */; };
 		CDFA990727B79F9500495F59 /* MyPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFA990627B79F9500495F59 /* MyPlaylistViewController.swift */; };
@@ -59,9 +77,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0DC23827BFC8F80001D789 /* LastCellOfTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCellOfTableViewCell.swift; sourceTree = "<group>"; };
+		CD0DC23927BFC8F80001D789 /* LastCellOfTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LastCellOfTableViewCell.xib; sourceTree = "<group>"; };
+		CD74880527C1FF610065065B /* FirstCellOfTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCellOfTableViewCell.swift; sourceTree = "<group>"; };
+		CD74880627C1FF610065065B /* FirstCellOfTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCellOfTableViewCell.xib; sourceTree = "<group>"; };
 		CD8367CB27BB63F1001793F0 /* MyPlaylistCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPlaylistCollectionCell.swift; sourceTree = "<group>"; };
 		CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPlaylistCollectionCell.xib; sourceTree = "<group>"; };
-		CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPlaylistViewController.swift; sourceTree = "<group>"; };
+		CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewPlaylistViewController.swift; path = "/Users/micky/Desktop/Himanshu/Himanshu Git/IOSAudioPlayer/IOSAudioPlayer/IOSAudioPlayer/View Controller/Add New Playlist View Controller/AddNewPlaylistViewController.swift"; sourceTree = "<absolute>"; };
 		CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayOfImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 		CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArrayOfImagesCollectionViewCell.xib; sourceTree = "<group>"; };
 		CD8367DA27BB68F7001793F0 /* PopupImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupImage.swift; sourceTree = "<group>"; };
@@ -70,7 +92,6 @@
 		CD8367E027BB6B4F001793F0 /* PlayerLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLogic.swift; sourceTree = "<group>"; };
 		CD8367E227BB6B64001793F0 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPlaylistViewController.swift; sourceTree = "<group>"; };
-		CD8367E527BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlectedPlaylistTableViewCell.swift; sourceTree = "<group>"; };
 		CD8367E827BB7060001793F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CD9FC29727BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
 		CD9FC29827BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewPlaylistCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -80,6 +101,8 @@
 		CDA8D6CB27BF57AE00821AE3 /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
 		CDA8D6CD27BF57AE00821AE3 /* AllSongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSongList.swift; sourceTree = "<group>"; };
 		CDA8D6CE27BF57AE00821AE3 /* AlbumOfPlaylists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumOfPlaylists.swift; sourceTree = "<group>"; };
+		CDA8D6D527BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPlaylistTableViewCell1.swift; sourceTree = "<group>"; };
+		CDA8D6D627BF669F00821AE3 /* SelectedPlaylistTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SelectedPlaylistTableViewCell.xib; path = "/Users/micky/Desktop/Himanshu/Himanshu Git/IOSAudioPlayer/IOSAudioPlayer/IOSAudioPlayer/View Controller/Selected Playlist/SelectedPlaylistTableViewCell.xib"; sourceTree = "<absolute>"; };
 		CDFA98FF27B79F9500495F59 /* IOSAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFA990227B79F9500495F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFA990427B79F9500495F59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -194,6 +217,30 @@
 			path = "Data Source";
 			sourceTree = "<group>";
 		};
+		CDA8D6D927BF66B400821AE3 /* Selected Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */,
+				CDA8D6D527BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift */,
+				CDA8D6D627BF669F00821AE3 /* SelectedPlaylistTableViewCell.xib */,
+				CD0DC23827BFC8F80001D789 /* LastCellOfTableViewCell.swift */,
+				CD0DC23927BFC8F80001D789 /* LastCellOfTableViewCell.xib */,
+				CD74880527C1FF610065065B /* FirstCellOfTableViewCell.swift */,
+				CD74880627C1FF610065065B /* FirstCellOfTableViewCell.xib */,
+			);
+			path = "Selected Playlist";
+			sourceTree = "<group>";
+		};
+		CDA8D6DC27BF686400821AE3 /* MyPlaylist */ = {
+			isa = PBXGroup;
+			children = (
+				CD8367E827BB7060001793F0 /* Main.storyboard */,
+				CDFA990627B79F9500495F59 /* MyPlaylistViewController.swift */,
+				CD8367CA27BB62D5001793F0 /* MyPlaylist collectionView */,
+			);
+			path = MyPlaylist;
+			sourceTree = "<group>";
+		};
 		CDFA98F627B79F9400495F59 = {
 			isa = PBXGroup;
 			children = (
@@ -235,10 +282,10 @@
 		CDFA991927B7BA6300495F59 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CDA8D6DC27BF686400821AE3 /* MyPlaylist */,
+				CDA8D6D927BF66B400821AE3 /* Selected Playlist */,
 				CDFA999A27B7E6B300495F59 /* Audio Player View Controller */,
-				CDFA999827B7E67C00495F59 /* Selected Playlist View Controller */,
 				CDFA999727B7E63900495F59 /* Add New Playlist View Controller */,
-				CDFA999027B7C7AF00495F59 /* Home Screen */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -279,16 +326,6 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		CDFA999027B7C7AF00495F59 /* Home Screen */ = {
-			isa = PBXGroup;
-			children = (
-				CD8367E827BB7060001793F0 /* Main.storyboard */,
-				CDFA990627B79F9500495F59 /* MyPlaylistViewController.swift */,
-				CD8367CA27BB62D5001793F0 /* MyPlaylist collectionView */,
-			);
-			name = "Home Screen";
-			sourceTree = "<group>";
-		};
 		CDFA999727B7E63900495F59 /* Add New Playlist View Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,15 +334,6 @@
 				CDFA99A027B7E82100495F59 /* PopupViews */,
 			);
 			path = "Add New Playlist View Controller";
-			sourceTree = "<group>";
-		};
-		CDFA999827B7E67C00495F59 /* Selected Playlist View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */,
-				CD8367E527BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift */,
-			);
-			name = "Selected Playlist View Controller";
 			sourceTree = "<group>";
 		};
 		CDFA999A27B7E6B300495F59 /* Audio Player View Controller */ = {
@@ -387,6 +415,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD74880327C0BFED0065065B /* AddNewPlaylistViewController.swift in Resources */,
+				CDA8D6E127BF86CB00821AE3 /* SelectedPlaylistTableViewCell.xib in Resources */,
+				CDA8D6DD27BF692000821AE3 /* MyPlaylistViewController.swift in Resources */,
+				CDA8D6DE27BF692000821AE3 /* MyPlaylistCollectionCell.swift in Resources */,
+				CDA8D6DF27BF692000821AE3 /* AddNewPlaylistCollectionViewCell.swift in Resources */,
+				CDA8D6E027BF692000821AE3 /* SongListToAddPlaylistCell.swift in Resources */,
+				CD74880827C1FF610065065B /* FirstCellOfTableViewCell.xib in Resources */,
+				CDA8D6DB27BF682800821AE3 /* SelectedPlaylistViewController.swift in Resources */,
+				CDA8D6DA27BF67EF00821AE3 /* SelectedPlaylistTableViewCell1.swift in Resources */,
 				CDFA998727B7C5DF00495F59 /* Rabb Jane.mp3 in Resources */,
 				CDFA997927B7C5DF00495F59 /* Hawayein.mp3 in Resources */,
 				CDFA997527B7C5DE00495F59 /* Music.wav in Resources */,
@@ -419,6 +456,7 @@
 				CDFA997627B7C5DE00495F59 /* Tujhi Mein - Crook 320Kbps.mp3 in Resources */,
 				CDFA998427B7C5DF00495F59 /* One Touch.mp3 in Resources */,
 				CDFA997C27B7C5DF00495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 in Resources */,
+				CD0DC23B27BFC8F80001D789 /* LastCellOfTableViewCell.xib in Resources */,
 				CDFA997A27B7C5DF00495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 in Resources */,
 				CDFA998327B7C5DF00495F59 /* Dil Galti Kar Baitha Hai.mp3 in Resources */,
 				CDFA997D27B7C5DF00495F59 /* Barns Courtney-Fire.mp3 in Resources */,
@@ -432,13 +470,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA8D6CF27BF5B0600821AE3 /* ThemeColorStruct.swift in Sources */,
+				CDA8D6D027BF5B0600821AE3 /* AlbumStruct.swift in Sources */,
+				CDA8D6D127BF5B0600821AE3 /* SongInfo.swift in Sources */,
+				CDA8D6D227BF5B0600821AE3 /* AlbumOfPlaylists.swift in Sources */,
+				CDA8D6D327BF5B0600821AE3 /* AllSongList.swift in Sources */,
+				CDA8D6D427BF5B0600821AE3 /* NavigationBar.swift in Sources */,
 				CD9FC29927BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift in Sources */,
-				CD8367E727BB6B7F001793F0 /* SlectedPlaylistTableViewCell.swift in Sources */,
+				CD74880727C1FF610065065B /* FirstCellOfTableViewCell.swift in Sources */,
 				CDFA990727B79F9500495F59 /* MyPlaylistViewController.swift in Sources */,
 				CD8367D727BB68CC001793F0 /* ArrayOfImagesCollectionViewCell.swift in Sources */,
 				CD8367E327BB6B64001793F0 /* AudioPlayerViewController.swift in Sources */,
 				CD8367E127BB6B4F001793F0 /* PlayerLogic.swift in Sources */,
+				CD0DC23A27BFC8F80001D789 /* LastCellOfTableViewCell.swift in Sources */,
 				CD8367DD27BB6947001793F0 /* PopupView.swift in Sources */,
+				CDA8D6D727BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift in Sources */,
 				CD8367D027BB6826001793F0 /* AddNewPlaylistViewController.swift in Sources */,
 				CDFA990327B79F9500495F59 /* AppDelegate.swift in Sources */,
 				CDFA990527B79F9500495F59 /* SceneDelegate.swift in Sources */,
@@ -514,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -569,7 +615,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -582,24 +628,27 @@
 		CDFA991427B79F9B00495F59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2MCAE8CXGC;
+				DEVELOPMENT_TEAM = 7ZAADXAB6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSAudioPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SimplyEntertainingLLC.IOSAudioPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JD.IOSAudioPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -610,24 +659,27 @@
 		CDFA991527B79F9B00495F59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2MCAE8CXGC;
+				DEVELOPMENT_TEAM = 7ZAADXAB6L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IOSAudioPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SimplyEntertainingLLC.IOSAudioPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JD.IOSAudioPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

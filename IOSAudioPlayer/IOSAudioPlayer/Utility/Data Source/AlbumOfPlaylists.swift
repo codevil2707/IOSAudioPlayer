@@ -17,7 +17,7 @@ var albumPlaylistArray = [
         SongInfo(songName: "Baliye Re - Jersey", songArtist: "Stebin ben",songImage: "Baliye Re - Jersey", songExt: "mp3"),SongInfo(songName: "Brown Munde", songArtist: "AP Dhillon",songImage: "Brown Munde", songExt: "mp3")],albumMode: .Default),
        AlbumStruct(albumName: "Romantic", albumImage: UIImage(named: "Romantic"), albumPlaylist: [ SongInfo(songName: "Din Raat", songArtist: "Garry Sandhu",songImage: "Din Raat", songExt: "mp3"),SongInfo(songName: "Jane Wale Laut Kar Tu Aaya Kyon Nahi",songArtist: "B-Praak,Neha Kakkar",songImage: "Jane Wale Laut Ke Aaya Kyun Nhi", songExt: "mp3"),SongInfo(songName: "Rabb Jane",songArtist: "Garry Sandhu",songImage: "Rabb Jane", songExt: "mp3"),
     SongInfo(songName: "Soch Liya",songArtist: "Radhe Shyam",songImage: "Soch Liya", songExt: "mp3")],albumMode: .Default),
-            AlbumStruct(albumName: "Sad Romantic", albumImage: UIImage(named: "Sad-Romantic"), albumPlaylist:  [SongInfo(songName: "jind Meriye - Jersey",songArtist: "Stebin Ben",songImage: "jind Meriye - jersey", songExt: "mp3"),
+            AlbumStruct(albumName: "Sad Romantic", albumImage: UIImage(named: "Sad-Romantic"), albumPlaylist:  [SongInfo(songName: "Jindey Meriye - Jersey",songArtist: "Stebin Ben",songImage: "jindey Meriye - jersey", songExt: "mp3"),
     SongInfo(songName: "Main Agar Saamne",songArtist: "Abhijit Singh, Alka Yagini",songImage: "Main Agar Samne", songExt: "mp3"),SongInfo(songName: "Mera Dil Bhi Kitna Pagal Hai", songArtist: "Abhijit Singh, Alka Yagini",songImage: "Mera Dil Bhi Kitna Pagal Hai", songExt: "mp3"),SongInfo(songName: "One Touch",songArtist: "Garry Sandhu",songImage: "One Touch", songExt: "mp3")],albumMode: .Default)
 
     ]
