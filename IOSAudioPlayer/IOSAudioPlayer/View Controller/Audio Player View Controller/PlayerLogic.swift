@@ -153,6 +153,8 @@ struct PlayerLogic{
  //MARK: - VOLUME CONTROL
 
     mutating func setVolumeInSlider(){
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(volume, forKey: "volume")
         audioPlayer.volume = Float(volume)
  }
  //

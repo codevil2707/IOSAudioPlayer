@@ -6,6 +6,7 @@
 //
 // MARK: - Imports
 import UIKit
+import AVFoundation
 
 
 // MARK: - AudioPlayerViewController
@@ -16,6 +17,7 @@ class AudioPlayerViewController: UIViewController {
     //??
     var playerLogic = PlayerLogic()
     var timer = Timer()
+    var albumName:String?
     // MARK: - OUTLETS
     ///display current song image
    
@@ -34,7 +36,7 @@ class AudioPlayerViewController: UIViewController {
     ///play/pause button outlet
     @IBOutlet weak var playPauseButton: UIButton!
     @IBOutlet weak var volumeSlider: UISlider!
-    
+ 
     
     // MARK: - LIFECYCLES
     override func viewDidLoad() {
@@ -46,7 +48,15 @@ class AudioPlayerViewController: UIViewController {
         updateUI()
         playerLogic.audioPlayer.volume = volume
         setNavBarOfPlaylist()
+        songBGImageView.frame = CGRect(x: 0, y: UIApplication.shared.statusBarFrame.size.height, width: view.frame.width, height: view.frame.height*0.9)
+        if (UIDevice.current.userInterfaceIdiom == .pad){
+        songTitleLabel.textAlignment = .center
+            SongArtist.textAlignment = .center
+          
+        }
+        
        
+        
     }
     
    
@@ -55,6 +65,10 @@ class AudioPlayerViewController: UIViewController {
         volume = playerLogic.audioPlayer.volume
         print(volume)
         
+    }
+   
+    override var prefersStatusBarHidden: Bool{
+        return true
     }
    
    
@@ -69,14 +83,16 @@ class AudioPlayerViewController: UIViewController {
    
     
     func setNavBarOfPlaylist(){
-        let startingYPos = UIApplication.shared.statusBarFrame.size.height;
-        let navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: 50))
+        let startingYPos : CGFloat = .zero;
+        let navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: 44))
         navBar.tintColor = themeColor.highlightColor
         navBar.barTintColor = themeColor.primary1Color
+        navBar.backgroundColor = themeColor.blackColor
+        UINavigationBar.appearance().isTranslucent = true
         navBar.titleTextAttributes = [.foregroundColor: themeColor.textColor1 as Any]
         view.addSubview(navBar)
         
-        let navItem = UINavigationItem(title: "Go Music")
+        let navItem = UINavigationItem(title: "\(albumName ?? "Music")")
         let leftItem = UIBarButtonItem(barButtonSystemItem: .cancel , target: self , action: #selector(backToPlaylist))
         
        navItem.leftBarButtonItem = leftItem

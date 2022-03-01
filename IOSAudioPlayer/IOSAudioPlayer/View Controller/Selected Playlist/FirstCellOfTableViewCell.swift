@@ -38,6 +38,7 @@ class FirstCellOfTableViewCell: UITableViewCell {
     }
     
     @IBAction func playButtonDidPressed(_ sender: UIButton) {
+        
         self.delegate?.playButtonClicked(true)
     }
 }

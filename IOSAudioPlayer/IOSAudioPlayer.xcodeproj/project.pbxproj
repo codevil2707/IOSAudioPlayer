@@ -16,14 +16,14 @@
 		CD8367CE27BB6401001793F0 /* MyPlaylistCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */; };
 		CD8367D027BB6826001793F0 /* AddNewPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */; };
 		CD8367D727BB68CC001793F0 /* ArrayOfImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */; };
-		CD8367D927BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */; };
-		CD8367DB27BB68F7001793F0 /* PopupImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367DA27BB68F7001793F0 /* PopupImage.swift */; };
-		CD8367DD27BB6947001793F0 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367DC27BB6947001793F0 /* PopupView.swift */; };
 		CD8367DF27BB6963001793F0 /* SongListToAddPlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367DE27BB6963001793F0 /* SongListToAddPlaylistCell.swift */; };
 		CD8367E127BB6B4F001793F0 /* PlayerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E027BB6B4F001793F0 /* PlayerLogic.swift */; };
 		CD8367E327BB6B64001793F0 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E227BB6B64001793F0 /* AudioPlayerViewController.swift */; };
 		CD8367E627BB6B7F001793F0 /* SelectedPlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */; };
 		CD8367E927BB7060001793F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8367E827BB7060001793F0 /* Main.storyboard */; };
+		CD894ED227C6168B006148B5 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD894ED027C6168B006148B5 /* PopUpViewController.swift */; };
+		CD894ED327C6168B006148B5 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD894ED127C6168B006148B5 /* PopUpViewController.xib */; };
+		CD894ED527C616F8006148B5 /* ArrayOfImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD894ED427C616F7006148B5 /* ArrayOfImagesCollectionViewCell.xib */; };
 		CD9FC29927BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FC29727BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift */; };
 		CD9FC29A27BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9FC29827BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib */; };
 		CDA8D6CF27BF5B0600821AE3 /* ThemeColorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6C927BF57AD00821AE3 /* ThemeColorStruct.swift */; };
@@ -31,7 +31,6 @@
 		CDA8D6D127BF5B0600821AE3 /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6CB27BF57AE00821AE3 /* SongInfo.swift */; };
 		CDA8D6D227BF5B0600821AE3 /* AlbumOfPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6CE27BF57AE00821AE3 /* AlbumOfPlaylists.swift */; };
 		CDA8D6D327BF5B0600821AE3 /* AllSongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6CD27BF57AE00821AE3 /* AllSongList.swift */; };
-		CDA8D6D427BF5B0600821AE3 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6C727BF57AD00821AE3 /* NavigationBar.swift */; };
 		CDA8D6D727BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8D6D527BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift */; };
 		CDA8D6DA27BF67EF00821AE3 /* SelectedPlaylistTableViewCell1.swift in Resources */ = {isa = PBXBuildFile; fileRef = CDA8D6D527BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift */; };
 		CDA8D6DB27BF682800821AE3 /* SelectedPlaylistViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */; };
@@ -85,17 +84,16 @@
 		CD8367CD27BB6401001793F0 /* MyPlaylistCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPlaylistCollectionCell.xib; sourceTree = "<group>"; };
 		CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewPlaylistViewController.swift; path = "/Users/micky/Desktop/Himanshu/Himanshu Git/IOSAudioPlayer/IOSAudioPlayer/IOSAudioPlayer/View Controller/Add New Playlist View Controller/AddNewPlaylistViewController.swift"; sourceTree = "<absolute>"; };
 		CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayOfImagesCollectionViewCell.swift; sourceTree = "<group>"; };
-		CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArrayOfImagesCollectionViewCell.xib; sourceTree = "<group>"; };
-		CD8367DA27BB68F7001793F0 /* PopupImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupImage.swift; sourceTree = "<group>"; };
-		CD8367DC27BB6947001793F0 /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		CD8367DE27BB6963001793F0 /* SongListToAddPlaylistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListToAddPlaylistCell.swift; sourceTree = "<group>"; };
 		CD8367E027BB6B4F001793F0 /* PlayerLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLogic.swift; sourceTree = "<group>"; };
 		CD8367E227BB6B64001793F0 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		CD8367E427BB6B7E001793F0 /* SelectedPlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPlaylistViewController.swift; sourceTree = "<group>"; };
 		CD8367E827BB7060001793F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CD894ED027C6168B006148B5 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = "Selected Playlist/PopUpViewController.swift"; sourceTree = "<group>"; };
+		CD894ED127C6168B006148B5 /* PopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PopUpViewController.xib; path = "Selected Playlist/PopUpViewController.xib"; sourceTree = "<group>"; };
+		CD894ED427C616F7006148B5 /* ArrayOfImagesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArrayOfImagesCollectionViewCell.xib; sourceTree = "<group>"; };
 		CD9FC29727BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
 		CD9FC29827BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewPlaylistCollectionViewCell.xib; sourceTree = "<group>"; };
-		CDA8D6C727BF57AD00821AE3 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		CDA8D6C927BF57AD00821AE3 /* ThemeColorStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorStruct.swift; sourceTree = "<group>"; };
 		CDA8D6CA27BF57AD00821AE3 /* AlbumStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumStruct.swift; sourceTree = "<group>"; };
 		CDA8D6CB27BF57AE00821AE3 /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
@@ -171,6 +169,13 @@
 			name = "selected Song TableView";
 			sourceTree = "<group>";
 		};
+		CD894ECD27C3B486006148B5 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Navigation Controller";
+			sourceTree = "<group>";
+		};
 		CDA8D6C427BF54F000821AE3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +198,6 @@
 		CDA8D6C627BF57AD00821AE3 /* Navigation Bar */ = {
 			isa = PBXGroup;
 			children = (
-				CDA8D6C727BF57AD00821AE3 /* NavigationBar.swift */,
 			);
 			path = "Navigation Bar";
 			sourceTree = "<group>";
@@ -282,6 +286,7 @@
 		CDFA991927B7BA6300495F59 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CD894ECD27C3B486006148B5 /* Navigation Controller */,
 				CDA8D6DC27BF686400821AE3 /* MyPlaylist */,
 				CDA8D6D927BF66B400821AE3 /* Selected Playlist */,
 				CDFA999A27B7E6B300495F59 /* Audio Player View Controller */,
@@ -330,8 +335,8 @@
 			isa = PBXGroup;
 			children = (
 				CD8367CF27BB6826001793F0 /* AddNewPlaylistViewController.swift */,
-				CD8367D127BB6861001793F0 /* selected Song TableView */,
 				CDFA99A027B7E82100495F59 /* PopupViews */,
+				CD8367D127BB6861001793F0 /* selected Song TableView */,
 			);
 			path = "Add New Playlist View Controller";
 			sourceTree = "<group>";
@@ -348,10 +353,10 @@
 		CDFA99A027B7E82100495F59 /* PopupViews */ = {
 			isa = PBXGroup;
 			children = (
-				CD8367DC27BB6947001793F0 /* PopupView.swift */,
-				CD8367DA27BB68F7001793F0 /* PopupImage.swift */,
-				CD8367D827BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib */,
 				CD8367D627BB68CB001793F0 /* ArrayOfImagesCollectionViewCell.swift */,
+				CD894ED427C616F7006148B5 /* ArrayOfImagesCollectionViewCell.xib */,
+				CD894ED027C6168B006148B5 /* PopUpViewController.swift */,
+				CD894ED127C6168B006148B5 /* PopUpViewController.xib */,
 			);
 			name = PopupViews;
 			path = ..;
@@ -436,9 +441,9 @@
 				CD9FC29A27BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.xib in Resources */,
 				CDFA990F27B79F9B00495F59 /* LaunchScreen.storyboard in Resources */,
 				CDFA998027B7C5DF00495F59 /* Din Raat.mp3 in Resources */,
+				CD894ED527C616F8006148B5 /* ArrayOfImagesCollectionViewCell.xib in Resources */,
 				CD8367CE27BB6401001793F0 /* MyPlaylistCollectionCell.xib in Resources */,
 				CDFA997F27B7C5DF00495F59 /* Jind Meriye - Jersey.mp3 in Resources */,
-				CD8367D927BB68DD001793F0 /* ArrayOfImagesCollectionViewCell.xib in Resources */,
 				CDFA997327B7C5DE00495F59 /* Woh Lamhe - Zeher Atif Aslam 320Kbps.mp3 in Resources */,
 				CDFA998527B7C5DF00495F59 /* Teri Yaadon Mein - The Killer 320Kbps.mp3 in Resources */,
 				CDFA998B27B7C5DF00495F59 /* Mera Dil Bhi Kitna Pagal Hai.mp3 in Resources */,
@@ -457,6 +462,7 @@
 				CDFA998427B7C5DF00495F59 /* One Touch.mp3 in Resources */,
 				CDFA997C27B7C5DF00495F59 /* Bol-Kaffara-Kya-Hoga_320(PaglaSongs).mp3 in Resources */,
 				CD0DC23B27BFC8F80001D789 /* LastCellOfTableViewCell.xib in Resources */,
+				CD894ED327C6168B006148B5 /* PopUpViewController.xib in Resources */,
 				CDFA997A27B7C5DF00495F59 /* Tum-Agar-Manoge_320(PaglaSongs).mp3 in Resources */,
 				CDFA998327B7C5DF00495F59 /* Dil Galti Kar Baitha Hai.mp3 in Resources */,
 				CDFA997D27B7C5DF00495F59 /* Barns Courtney-Fire.mp3 in Resources */,
@@ -475,21 +481,19 @@
 				CDA8D6D127BF5B0600821AE3 /* SongInfo.swift in Sources */,
 				CDA8D6D227BF5B0600821AE3 /* AlbumOfPlaylists.swift in Sources */,
 				CDA8D6D327BF5B0600821AE3 /* AllSongList.swift in Sources */,
-				CDA8D6D427BF5B0600821AE3 /* NavigationBar.swift in Sources */,
 				CD9FC29927BCDDB200F7FE2B /* AddNewPlaylistCollectionViewCell.swift in Sources */,
+				CD894ED227C6168B006148B5 /* PopUpViewController.swift in Sources */,
 				CD74880727C1FF610065065B /* FirstCellOfTableViewCell.swift in Sources */,
 				CDFA990727B79F9500495F59 /* MyPlaylistViewController.swift in Sources */,
 				CD8367D727BB68CC001793F0 /* ArrayOfImagesCollectionViewCell.swift in Sources */,
 				CD8367E327BB6B64001793F0 /* AudioPlayerViewController.swift in Sources */,
 				CD8367E127BB6B4F001793F0 /* PlayerLogic.swift in Sources */,
 				CD0DC23A27BFC8F80001D789 /* LastCellOfTableViewCell.swift in Sources */,
-				CD8367DD27BB6947001793F0 /* PopupView.swift in Sources */,
 				CDA8D6D727BF669F00821AE3 /* SelectedPlaylistTableViewCell1.swift in Sources */,
 				CD8367D027BB6826001793F0 /* AddNewPlaylistViewController.swift in Sources */,
 				CDFA990327B79F9500495F59 /* AppDelegate.swift in Sources */,
 				CDFA990527B79F9500495F59 /* SceneDelegate.swift in Sources */,
 				CD8367E627BB6B7F001793F0 /* SelectedPlaylistViewController.swift in Sources */,
-				CD8367DB27BB68F7001793F0 /* PopupImage.swift in Sources */,
 				CD8367DF27BB6963001793F0 /* SongListToAddPlaylistCell.swift in Sources */,
 				CD8367CC27BB63F1001793F0 /* MyPlaylistCollectionCell.swift in Sources */,
 			);
@@ -639,6 +643,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -670,6 +675,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

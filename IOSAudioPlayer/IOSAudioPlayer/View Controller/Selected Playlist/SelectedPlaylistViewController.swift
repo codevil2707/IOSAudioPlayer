@@ -27,6 +27,10 @@ class SelectedPlayListViewController:UIViewController{
        
     }
     
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
+   
     
     func setTableViewCell(){
         let nibCell = UINib(nibName: "SelectedPlaylistTableViewCell", bundle: nil)
@@ -40,7 +44,7 @@ class SelectedPlayListViewController:UIViewController{
     
     
     func setNavBarOfSonglist(){
-        let startingYPos = UIApplication.shared.statusBarFrame.size.height;
+        let startingYPos : CGFloat = .zero;
         let navBar = UINavigationBar(frame: CGRect(x: 0, y:startingYPos, width: view.frame.width, height: 50))
         navBar.tintColor = themeColor.highlightColor
         navBar.barTintColor = themeColor.primary1Color
@@ -48,9 +52,9 @@ class SelectedPlayListViewController:UIViewController{
         view.addSubview(navBar)
 
         let navItem = UINavigationItem(title: "Songlist")
-        let rightItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(onClickedCancel))
+        let leftItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(onClickedCancel))
 
-       navItem.rightBarButtonItem = rightItem
+       navItem.leftBarButtonItem = leftItem
         navBar.setItems([navItem], animated: false)
     }
     @objc func onClickedCancel(){
@@ -60,6 +64,7 @@ class SelectedPlayListViewController:UIViewController{
     func pushToMusicPlayer(selectedIndexPath:Int){
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let destination = storyboard.instantiateViewController(withIdentifier: "AudioPlayerViewController") as! AudioPlayerViewController
+        destination.albumName = selectedAlbum?.albumName
         destination.playerLogic.songlist = (selectedAlbum?.albumPlaylist)!
         destination.playerLogic.currentSongIndex = selectedIndexPath
         navigationController?.pushViewController(destination, animated: true)
@@ -112,11 +117,12 @@ extension SelectedPlayListViewController: UITableViewDataSource, UITableViewDele
             return self.view.frame.height*0.6
             
         }
-//        else if indexPath.row == (selectedAlbum?.albumPlaylist!.count)!+1{
-//            return self.view.frame.height*0.15
-//
-//        }
+        else if indexPath.row == (selectedAlbum?.albumPlaylist!.count)!+1{
+            return self.view.frame.height*0.2
+
+        }
         else {
+            
             return self.view.frame.height*0.1
             
             

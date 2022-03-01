@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -39,7 +39,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <color key="tintColor" name="Text Color1"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="PLAY">
+                                        <state key="normal" title="PLAY ALL">
                                             <color key="titleColor" name="Primary color1"/>
                                         </state>
                                         <connections>
@@ -61,8 +61,8 @@
                             <constraint firstItem="IAg-kx-vRP" firstAttribute="height" secondItem="Tu6-gc-a81" secondAttribute="height" multiplier="0.7" id="bvM-rS-ZNe"/>
                         </constraints>
                     </stackView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="17" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ihm-cP-E0R">
-                        <rect key="frame" x="16" y="0.0" width="177" height="59"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POP" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="17" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ihm-cP-E0R">
+                        <rect key="frame" x="23" y="0.0" width="177" height="59"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -72,6 +72,9 @@
                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                         <color key="textColor" name="Text Color1"/>
                         <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                        </variation>
                     </label>
                 </subviews>
                 <color key="backgroundColor" name="Primary color1"/>
@@ -82,7 +85,7 @@
                     <constraint firstItem="Tu6-gc-a81" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.92" id="duI-6d-7qt"/>
                     <constraint firstItem="Ihm-cP-E0R" firstAttribute="top" secondItem="IAg-kx-vRP" secondAttribute="top" id="e6g-BT-FZN"/>
                     <constraint firstItem="Tu6-gc-a81" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="jcJ-rW-YKz"/>
-                    <constraint firstItem="Ihm-cP-E0R" firstAttribute="leading" secondItem="Tu6-gc-a81" secondAttribute="leading" id="vvZ-N9-lzR"/>
+                    <constraint firstItem="Ihm-cP-E0R" firstAttribute="leading" secondItem="Tu6-gc-a81" secondAttribute="leading" constant="7" id="vvZ-N9-lzR"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -99,7 +102,7 @@
     <resources>
         <image name="Pop" width="2240" height="1493"/>
         <namedColor name="Highlight">
-            <color red="0.30300000309944153" green="0.82099997997283936" blue="0.35100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.9570000171661377" green="0.51399999856948853" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Primary color1">
             <color red="0.013000000268220901" green="0.0040000001899898052" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -21,34 +21,54 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="893-Ks-SnL">
                         <rect key="frame" x="0.0" y="0.0" width="381" height="204"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aw8-i9-Fbm">
-                                <rect key="frame" x="91.5" y="12" width="289.5" height="180"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="20j-r0-jVB">
+                                <rect key="frame" x="91.5" y="0.0" width="289.5" height="204"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="75V-y7-uFO">
-                                        <rect key="frame" x="0.0" y="0.0" width="289.5" height="90"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aw8-i9-Fbm">
+                                        <rect key="frame" x="0.0" y="0.0" width="289.5" height="65.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="75V-y7-uFO">
+                                                <rect key="frame" x="0.0" y="0.0" width="289.5" height="33"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="Highlight"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" name="Text Color2"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number Of Songs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="K2h-Cj-rOi">
+                                                <rect key="frame" x="0.0" y="33" width="289.5" height="32.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="Text Color2"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="tintColor" name="Highlight"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <color key="textColor" name="Text Color2"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number Of Songs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="K2h-Cj-rOi">
-                                        <rect key="frame" x="0.0" y="90" width="289.5" height="90"/>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDi-Lq-FwC">
+                                        <rect key="frame" x="0.0" y="65.5" width="289.5" height="138.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" name="Text Color2"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="aw8-i9-Fbm" firstAttribute="height" secondItem="20j-r0-jVB" secondAttribute="height" multiplier="0.321078" id="o6M-xg-Agm"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" name="Primary color1"/>
                         <constraints>
-                            <constraint firstItem="aw8-i9-Fbm" firstAttribute="width" secondItem="893-Ks-SnL" secondAttribute="width" multiplier="0.76" id="2RT-em-1pg"/>
-                            <constraint firstItem="aw8-i9-Fbm" firstAttribute="height" secondItem="893-Ks-SnL" secondAttribute="height" multiplier="0.88" id="gWn-BM-F36"/>
-                            <constraint firstItem="aw8-i9-Fbm" firstAttribute="trailing" secondItem="893-Ks-SnL" secondAttribute="trailing" id="hfl-hq-trb"/>
-                            <constraint firstItem="aw8-i9-Fbm" firstAttribute="centerY" secondItem="893-Ks-SnL" secondAttribute="centerY" id="pJk-F4-q8U"/>
+                            <constraint firstItem="20j-r0-jVB" firstAttribute="width" secondItem="893-Ks-SnL" secondAttribute="width" multiplier="0.76" id="3SJ-KW-zL9"/>
+                            <constraint firstItem="20j-r0-jVB" firstAttribute="top" secondItem="893-Ks-SnL" secondAttribute="top" id="jm7-G9-cch"/>
+                            <constraint firstAttribute="bottom" secondItem="20j-r0-jVB" secondAttribute="bottom" id="mF8-Ct-YVW"/>
+                            <constraint firstAttribute="trailing" secondItem="20j-r0-jVB" secondAttribute="trailing" id="xB5-1h-Qvb"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -73,7 +93,7 @@
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Highlight">
-            <color red="0.30300000309944153" green="0.82099997997283936" blue="0.35100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.9570000171661377" green="0.51399999856948853" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Primary color1">
             <color red="0.013000000268220901" green="0.0040000001899898052" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

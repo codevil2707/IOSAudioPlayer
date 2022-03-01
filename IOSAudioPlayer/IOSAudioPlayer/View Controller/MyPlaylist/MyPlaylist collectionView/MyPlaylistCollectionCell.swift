@@ -10,7 +10,7 @@ protocol DeletePlaylistDelegate{
     func deletePlaylist(_ selectedindex:Int)
 }
 
-class MyPlaylistCollectionCell: UICollectionViewCell {
+class MyPlaylistCollectionCell: UICollectionViewCell, UIAlertViewDelegate {
     
     @IBOutlet weak var NameLabel: UILabel!
     @IBOutlet weak var CoverImageView: UIImageView!
@@ -29,10 +29,10 @@ class MyPlaylistCollectionCell: UICollectionViewCell {
 //        playlistAlbumCoverImageView.translatesAutoresizingMaskIntoConstraints = true
 //        playlistAlbumCoverNameLabel.translatesAutoresizingMaskIntoConstraints = true
     }
-//    override var isSelected: Bool
+  
  
     func configure(_ playlists:AlbumStruct,_ indexPath:IndexPath){
-        CoverImageView.image = playlists.albumImage
+        CoverImageView.image = playlists.albumImage?.resizeImage(targetSize: self.frame.size)
         NameLabel.text = playlists.albumName
         if playlists.albumMode == .User{
             deleteButton.isHidden = false
@@ -47,7 +47,9 @@ class MyPlaylistCollectionCell: UICollectionViewCell {
     @IBAction func deleteButtonDidPressed(_ sender: UIButton) {
         if let selectedIndexPath = indexPathOfPlaylist{
             self.delegate?.deletePlaylist(selectedIndexPath)
+            
         }
+        
     }
     
   

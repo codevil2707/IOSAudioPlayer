@@ -19,3 +19,10 @@ enum AlbumMode : String{
     case Default = "DEFAULT"
     case User = "USER"
 }
+
+enum UIUserInterfaceIdiom : Int {
+    case unspecified
+    
+    case phone // iPhone and iPod touch style UI
+    case pad   // iPad style UI (also includes macOS Catalyst)
+}

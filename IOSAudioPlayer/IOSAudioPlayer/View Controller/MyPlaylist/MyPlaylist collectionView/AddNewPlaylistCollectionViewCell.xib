@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -20,19 +21,19 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pX2-f2-FcY">
                         <rect key="frame" x="0.0" y="0.0" width="264" height="167"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="—Pngtree—plus icon_4526657" translatesAutoresizingMaskIntoConstraints="NO" id="dhy-Xx-ULZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="dhy-Xx-ULZ">
                                 <rect key="frame" x="0.0" y="0.0" width="264" height="167"/>
-                                <color key="backgroundColor" red="0.104416199" green="0.26140052079999998" blue="0.28149360420000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" name="Text Color1"/>
                                 <color key="tintColor" name="Highlight"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.34299999475479126" green="0.23074146621126351" blue="0.31092284817205884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" name="Highlight"/>
                         <constraints>
-                            <constraint firstItem="dhy-Xx-ULZ" firstAttribute="leading" secondItem="pX2-f2-FcY" secondAttribute="leading" id="5Ao-Jq-swk"/>
-                            <constraint firstAttribute="bottom" secondItem="dhy-Xx-ULZ" secondAttribute="bottom" id="8Qf-yk-sEe"/>
-                            <constraint firstAttribute="trailing" secondItem="dhy-Xx-ULZ" secondAttribute="trailing" id="Tta-VB-NC2"/>
-                            <constraint firstItem="dhy-Xx-ULZ" firstAttribute="top" secondItem="pX2-f2-FcY" secondAttribute="top" id="yZI-KH-E8f"/>
+                            <constraint firstItem="dhy-Xx-ULZ" firstAttribute="height" secondItem="pX2-f2-FcY" secondAttribute="height" id="80X-OO-76L"/>
+                            <constraint firstItem="dhy-Xx-ULZ" firstAttribute="width" secondItem="pX2-f2-FcY" secondAttribute="width" id="M2g-Gk-3jv"/>
+                            <constraint firstItem="dhy-Xx-ULZ" firstAttribute="centerY" secondItem="pX2-f2-FcY" secondAttribute="centerY" id="OUA-se-dJ2"/>
+                            <constraint firstItem="dhy-Xx-ULZ" firstAttribute="centerX" secondItem="pX2-f2-FcY" secondAttribute="centerX" id="XJY-dq-gKV"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -49,9 +50,12 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="—Pngtree—plus icon_4526657" width="666" height="666"/>
+        <image name="Image" width="1024" height="1024"/>
         <namedColor name="Highlight">
-            <color red="0.30300000309944153" green="0.82099997997283936" blue="0.35100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.95686274509803926" green="0.51372549019607838" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Text Color1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
